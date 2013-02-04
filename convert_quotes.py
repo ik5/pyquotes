@@ -40,7 +40,7 @@ class Converter(object) :
 
         return True
 
-    def parse(*a_list) :
+    def parse(a_list) :
         quote  = ''
         author = ''
         lines  = a_list
