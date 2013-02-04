@@ -26,13 +26,19 @@ class Converter :
 
         con = a_connection
 
+    def insert_to_db(quote, author) :
+        pass
+
     def parse(*a_list) :
-        quote  = []
+        quote  = ''
         author = ''
-        ref    = ''
         a_list = []
-
-
+        
+        if a_list[-1].startswith('    ') :
+            author = a_list.pop().strip()
+        
+        qoute = ''.join(a_list)
+        return insert_to_db(quote, author)
 
     def iterate_quote() :
         full_quote = []
