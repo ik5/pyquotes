@@ -16,9 +16,9 @@ logger    = logging.getLogger   ('convert_quotes'                           )
 handler   = logging.FileHandler ('log/convert.log'                          )
 formatter = logging.Formatter   ('[%(asctime)s - %(levelname)s] %(message)s')
 
-handler.setFormtter (formatter    )
-logger.addHandler   (hadler       ) 
-logger.setLevel     (logging.DEBUG)
+handler.setFormatter (formatter    )
+logger.addHandler    (handler      )
+logger.setLevel      (logging.DEBUG)
 
 
 if not os.path.exists('quotes.txt') :
