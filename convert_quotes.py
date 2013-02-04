@@ -72,6 +72,10 @@ class Converter(object) :
 ## even our editors/ide support this :P
 ##
 #
+#    logger = logging.getLogger ('convert_quotes')
+#    handler = logging.FileHandler ('log/convert.log')
+#    formatter = logging.Formatter (('[%(asctime)s - %(levelname)s] '
+#                                    '%(message)s'))
 #    return logger
 #
 #def finalize(db_connection) :
