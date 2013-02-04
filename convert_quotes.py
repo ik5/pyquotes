@@ -57,7 +57,6 @@ class Converter(object) :
         with open('quotes.txt') as a_file :
             for line in a_file :
                 if line == '----\n' :
-#
                     self.parse(full_quote)
                     full_quote = []
                 else :
