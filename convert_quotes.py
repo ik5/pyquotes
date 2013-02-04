@@ -1,11 +1,20 @@
 #!/usr/bin/env python2
 
-from os import path
-from sys import exit
+import os
+import sys
 import fdb
 
-if not path.exists('quotes.txt') :
-    exit('Error: Could not find the quotes.txt file, bye')
+if not os.path.exists('quotes.txt') :
+    sys.exit('Error: Could not find the quotes.txt file, bye')
+
+try :
+    con = fdb.connect(
+                       dsn      = '127.0.0.1:quotes',
+                       user     = 'sysdba', 
+                       password = 'masterkey'
+                     )
+except fdb.DatabaseError as e :
+    sys.exit("Database error: {0}".format(e))
 
 
 
