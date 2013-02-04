@@ -61,7 +61,7 @@ class Converter(object) :
                     full_quote = []
                 else :
                     if line.strip() :
-                      full_quote.append(line)
+                       full_quote.append(line)
 
 
 #def init_logger() :
