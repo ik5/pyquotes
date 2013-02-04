@@ -15,16 +15,8 @@ class Converter :
     con    = None
 
     def __init__(self, a_logger, a_connection) :
-        logger    = logging.getLogger   ('convert_quotes')
-        handler   = logging.FileHandler ('log/convert.log')
-        formatter = logging.Formatter   (('[%(asctime)s - %(levelname)s] '
-                                         '%(message)s'))
-
-        handler.setFormatter (formatter    )
-        logger.addHandler    (handler      )
-        logger.setLevel      (logging.DEBUG)
-
-        con = a_connection
+        logger = a_logger
+        con    = a_connection
 
     def insert_to_db(quote, author) :
         pass
