@@ -45,7 +45,7 @@ class Converter(object) :
         author = ''
         lines  = a_list
         
-        if a_list[-1].startswith('    ') :
+        if lines[-1].startswith('    ') :
             author = lines.pop().strip()
         
         qoute = ''.join(lines).rstrip()
