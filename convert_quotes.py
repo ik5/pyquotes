@@ -22,6 +22,7 @@ logger.setLevel     (logging.DEBUG)
 
 
 if not os.path.exists('quotes.txt') :
+    logger.critical('The file quotes.txt was not found')
     sys.exit('Error: Could not find the quotes.txt file, bye')
 
 try :
@@ -30,6 +31,11 @@ try :
                        user     = 'sysdba', 
                        password = 'masterkey'
                      )
+
+    logger.info('Connected to the database')
+
 except fdb.DatabaseError as e :
-    sys.exit("Database error: {0}".format(e))
+    logger.critical('Database connection error: %s', e)
+    sys.exit       ('Database error: {0}'.format(e))
+
 
