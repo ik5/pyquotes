@@ -20,6 +20,7 @@ handler.setFormatter (formatter    )
 logger.addHandler    (handler      )
 logger.setLevel      (logging.DEBUG)
 
+logger.info('entering convert_quotes.py')
 
 if not os.path.exists('quotes.txt') :
     logger.critical('The file quotes.txt was not found')
