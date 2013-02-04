@@ -9,28 +9,50 @@ import fdb
 import logging
 import atexit
 
-class Converter :
+class Converter(object) :
 
     logger = None
     con    = None
 
-    def __init__(self, a_logger, a_connection) :
-        logger = a_logger
-        con    = a_connection
+    def __init__(self, logger, connection) :
+        self.logger = logger
+        self.con    = connection
 
     def insert_to_db(quote, author) :
-        pass
+        cursor = con.cursor()
+        author_id = None
+        if author :
+            try :
+                cursor.execute(('insert into quote_authors(AUTHOR)' 
+                                'values(?)'), author)
+
+                cursor.execute(('select id from quote_authors' 
+                                'where author=?'), author)
+
+                author_id = cursor[0]
+            except :
+                pass
+
+        try :
+          cursor.execute(('insert into quotes(body, author_ref) '
+                          'values(?, ?)'), quote, author)
+
+          con.commit()
+        except :
+            return False
+
+        return True
 
     def parse(*a_list) :
         quote  = ''
         author = ''
-        a_list = []
+        lines  = a_list
         
         if a_list[-1].startswith('    ') :
-            author = a_list.pop().strip()
+            author = lines.pop().strip()
         
-        qoute = ''.join(a_list)
-        return insert_to_db(quote, author)
+        qoute = ''.join(lines).rstrip()
+        return self.insert_to_db(quote, author)
 
     def iterate_quote() :
         full_quote = []
