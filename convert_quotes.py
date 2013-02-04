@@ -1,10 +1,11 @@
 #!/usr/bin/env python2
 
 from os import path
+from sys import exit
+import fdb
 
-if not path.exits('quotes.txt') :
-    sys.stderr 'Could not find the quotes.txt file, bye'
-    sys.exit(-1)
+if not path.exists('quotes.txt') :
+    exit('Error: Could not find the quotes.txt file, bye')
 
-print "here"
+
 
