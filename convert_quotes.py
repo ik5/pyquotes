@@ -9,25 +9,37 @@ import fdb
 import logging
 import atexit
 
+def init_logger() :
 #
 # readability over everything else !
 # http://www.python.org/dev/peps/pep-0008/#pet-peeves <- Really ? 
 # I'm an Object Pascal developer, and that's how we do things, 
 # even our editors/ide support this :P
 #
-logger    = logging.getLogger   ('convert_quotes'                           )
-handler   = logging.FileHandler ('log/convert.log'                          )
-formatter = logging.Formatter   ('[%(asctime)s - %(levelname)s] %(message)s')
+    logger    = logging.getLogger   ('convert_quotes')
+    handler   = logging.FileHandler ('log/convert.log')
+    formatter = logging.Formatter   (('[%(asctime)s - %(levelname)s] '
+                                     '%(message)s'))
 
-handler.setFormatter (formatter    )
-logger.addHandler    (handler      )
-logger.setLevel      (logging.DEBUG)
+    handler.setFormatter (formatter    )
+    logger.addHandler    (handler      )
+    logger.setLevel      (logging.DEBUG)
 
-logger.info('entering convert_quotes.py')
+    return logger
 
 def finalize(db_connection) :
     if not db_connection.closed :
         db_connection.close
+
+def parse_list(a_list, con, logger) :
+    if not a_list :
+       return None
+
+    return None
+
+logger = init_logger()
+logger.info('Entering convert_quotes.py')
+
 
 if not os.path.exists('quotes.txt') :
     logger.critical('The file quotes.txt was not found')
@@ -55,7 +67,7 @@ with open('quotes.txt') as a_file :
         if line == '----\n' :
             # 
             #
-
+            
             full_quote = []
         else :
             full_quote.append(line)
