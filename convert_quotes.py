@@ -60,7 +60,8 @@ class Converter(object) :
                     self.parse(full_quote)
                     full_quote = []
                 else :
-                    full_quote.append(line)
+                    if line.strip() :
+                      full_quote.append(line)
 
 
 #def init_logger() :
