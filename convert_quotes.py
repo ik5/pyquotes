@@ -11,9 +11,6 @@ import atexit
 
 class Converter(object) :
 
-    logger = None
-    con    = None
-
     def __init__(self, logger, connection) :
         self.logger = logger
         self.con    = connection
