@@ -149,7 +149,7 @@ def handle_author_db(con, cursor, author, authors_ids, logger=LOGGER) :
         except fdb.DatabaseError as e : # could not get the author id
             logger.info('Could not find author (%s): %s', author, e)
 
-    else: # if author
+    else : # if author
         logger.debug('Author is not set')
 
     return author_id
