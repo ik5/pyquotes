@@ -9,120 +9,112 @@ import fdb
 import logging
 import atexit
 
-class Converter(object) :
+def init_logger() :
+    """initialize the logger"""
+#
+# readability over everything else !
+# http://www.python.org/dev/peps/pep-0008/#pet-peeves <- Really ? 
+# I'm an Object Pascal developer, and that's how we do things, 
+# even our editors/ide support this :P
+#
+    logger    = logging.getLogger('convert_quotes')
+    handler   = logging.FileHandler('log/convert.log')
+    formatter = logging.Formatter(('[%(asctime)s - %(levelname)s] '
+                                   '%(message)s'))
+    return logger
 
-    def __init__(self, logger, connection) :
-        self.logger = logger
-        self.con    = connection
 
-    def insert_to_db(quote, author) :
-        cursor = con.cursor()
-        author_id = None
-        if author :
-            try :
-                cursor.execute(('insert into quote_authors(AUTHOR)' 
-                                'values(?)'), author)
 
-                cursor.execute(('select id from quote_authors' 
-                                'where author=?'), author)
+LOGGER = init_logger()
+LOGGER.info('Entering convert_quotes.py')
+QUOTES_FILE = 'quotes.txt'
+SEPARATOR   = '----\n'
+AUTHOR_MARK = '    '
 
-                author_id = cursor[0]
-            except :
-                pass
+
+
+def init_db(logger = LOGGER) :
+    """initialize the database connection
+       raised an fdb.DatabaseError if database error"""
+
+    try :
+        con = fdb.connect(
+                          dsn      = '127.0.0.1:quotes',
+                          user     = 'sysdba', 
+                          password = 'masterkey'
+                         )
+
+        logger.info('Connected to the database')
+
+    except fdb.DatabaseError as e :
+        logger.critical('Database connection error: %s', e)
+        raise e
+
+    return con
+
+def finalize(db_connection, logger=LOGGER) :
+    """close the database connection"""
+    if not db_connection.closed :
+        logger.info('Closing database connection')
+        db_connection.close
+    else :
+        logger.error('The database connection is already closed')
+
+
+def iter_quotes(quotes_file = QUOTES_FILE) :
+    "Walks over the quotes file, yields (quote, author) tuples for each quote"
+
+    with open(quotes_file) as f:
+        quote = []
+
+        for line in f:
+            if line != SEPARATOR :
+                if line.strip :
+                    quote.append(line)
+
+            else :
+                if not quote : # quote is empty ?
+                    continue
+
+                # try to extract the author if exists 
+                if quote[-1].startswith(AUTHOR_MARK) :
+                    author = quote.pop().strip()
+                else : # mark it as none it it was not found
+                    author = None
+
+                yield ''.join(quote).rstrip(), author
+                quote = []
+
+def insert_to_db(con, quote, author, logger=LOGGER) :
+    cursor = con.cursor()
+    author_id = None
+    if author :
+        try :
+            cursor.execute('insert into quote_authors(AUTHOR) values(?)', 
+                           author)
+        except fdb.DatabaseError as e : 
+            # usually means that the author already exists ...
+            logger.info('Could not insert author (%s): %s', (author, e))
 
         try :
-          cursor.execute(('insert into quotes(body, author_ref) '
-                          'values(?, ?)'), quote, author)
+            cursor.execute('select id from quote_authors where author=?', 
+                           author)
 
-          con.commit()
-        except :
-            return False
+            author_id = cursor.fetchone['id']
+        except fdb.DatabaseError as e : # could not get the author id
+            logger.info('Could not find author (%s): %s', (author, e))
 
-        return True
+    try :
+        cursor.execute(('insert into quotes(body, author_ref) '
+            'values(?, ?)'), quote, author)
 
-    def parse(a_list) :
-        quote  = ''
-        author = ''
-        lines  = a_list
-        
-        if lines[-1].startswith('    ') :
-            author = lines.pop().strip()
-        
-        qoute = ''.join(lines).rstrip()
-        return self.insert_to_db(quote, author)
+        con.commit()
+    except fdb.DatabaseError as e : # could not execute query or commit
+        logger.error('Could not insert quote: %s', e)
+        return False
 
-    def iterate_quote() :
-        full_quote = []
-
-        with open('quotes.txt') as a_file :
-            for line in a_file :
-                if line == '----\n' :
-                    self.parse(full_quote)
-                    full_quote = []
-                else :
-                    if line.strip() :
-                       full_quote.append(line)
+    return True
 
 
-#def init_logger() :
-##
-## readability over everything else !
-## http://www.python.org/dev/peps/pep-0008/#pet-peeves <- Really ? 
-## I'm an Object Pascal developer, and that's how we do things, 
-## even our editors/ide support this :P
-##
-#
-#    logger = logging.getLogger ('convert_quotes')
-#    handler = logging.FileHandler ('log/convert.log')
-#    formatter = logging.Formatter (('[%(asctime)s - %(levelname)s] '
-#                                    '%(message)s'))
-#    return logger
-#
-#def finalize(db_connection) :
-#    if not db_connection.closed :
-#        db_connection.close
-#
-#def parse_list(a_list, con, logger) :
-#    if not a_list :
-#       return None
-#
-#    return None
-#
-#logger = init_logger()
-#logger.info('Entering convert_quotes.py')
-#
-#
-#if not os.path.exists('quotes.txt') :
-#    logger.critical('The file quotes.txt was not found')
-#    sys.exit('Error: Could not find the quotes.txt file, bye')
-#
-#try :
-#    con = fdb.connect(
-#                       dsn      = '127.0.0.1:quotes',
-#                       user     = 'sysdba', 
-#                       password = 'masterkey'
-#                     )
-#
-#    logger.info('Connected to the database')
-#
-#except fdb.DatabaseError as e :
-#    logger.critical('Database connection error: %s', e)
-#    sys.exit       ('Database error: {0}'.format(e))
-#
-#atexit.register(finalize, con)
-#
-#with open('quotes.txt') as a_file :
-#    full_quote = []
-#
-#    for line in a_file :
-#        if line == '----\n' :
-#            # 
-#            #
-#            
-#            full_quote = []
-#        else :
-#            full_quote.append(line)
-#            
-#
-#
-#
+if __name__ == '__main__':
+    pass
