@@ -23,17 +23,16 @@ def init_logger() :
     handler   = logging.FileHandler('log/convert.log')
     formatter = logging.Formatter(('[%(asctime)s - %(levelname)s] '
                                    '%(message)s'))
-    handler.setLevel(logging.DEBUG)
     handler.setFormatter(formatter)
     logger.addHandler(handler)
 
     # place output to screen
     ch = logging.StreamHandler()
-    ch.setLevel(logging.DEBUG)
     ch_format = logging.Formatter('%(levelname)s %(message)s')
     ch.setFormatter(ch_format)
 
     logger.addHandler(ch)
+    logger.setLevel(logging.DEBUG)
 
     return logger
 
