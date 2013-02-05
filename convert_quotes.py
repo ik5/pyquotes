@@ -156,7 +156,7 @@ def insert_to_db(con, quote, author, authors_ids, logger=LOGGER) :
     """Insert quotes to the database"""
 
     # open database cursor to make actions such as select and insert
-    cursor    = con.cursor()
+    cursor = con.cursor()
 
     try :
         author_id = handle_author_db(con, cursor, author,authors_ids, logger)
