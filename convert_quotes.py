@@ -77,13 +77,13 @@ def finalize(db_connection, logger=LOGGER) :
 def iter_quotes(quotes_file = QUOTES_FILE, logger = LOGGER) :
     "Walks over the quotes file, yields (quote, author) tuples for each quote"
 
+    counter = 0
     with open(quotes_file) as f:
         quote = []
 
         for line in f:
             if line != SEPARATOR : # not end of quote
-                if line.strip : # not and empty line
-                    quote.append(line)
+                quote.append(line)
 
             else : # end of quote
                 if not quote : # quote is empty ?
@@ -108,6 +108,9 @@ def iter_quotes(quotes_file = QUOTES_FILE, logger = LOGGER) :
                 # extract it for external handler
                 yield str_quote, author
                 quote = []
+                counter += 1
+
+    logger.debug('Total quotes found with iterator: %d', counter)
 
 def insert_to_db(con, quote, author, logger=LOGGER) :
     """Insert quotes to the database"""
@@ -152,10 +155,12 @@ def insert_to_db(con, quote, author, logger=LOGGER) :
 def run(con, logger = LOGGER) :
     """The main execution loop"""
     LOGGER.debug('Starting to parse file:')
+    counter = 0
     for quote, author in iter_quotes():
         insert_to_db(con, quote, author)
+        counter += 1
 
-    LOGGER.debug('Done parsing file')
+    LOGGER.debug('Done parsing file. Total quotes: %d', counter)
 
 
 if __name__ == '__main__' :
