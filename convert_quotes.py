@@ -100,6 +100,7 @@ def iter_quotes(quotes_file = QUOTES_FILE, logger = LOGGER) :
                     author = None
                 
                 str_quote = ''.join(quote).rstrip()
+
                 if author :
                     logger.debug('About to work on quote "%s" by "%s"',
                                  str_quote, author
