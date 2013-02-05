@@ -115,8 +115,39 @@ def iter_quotes(quotes_file = QUOTES_FILE, logger = LOGGER) :
                 yield str_quote, author
                 quote = []
 
+def insert_author(con, cursor, author, logger=LOGGER) :
+    """insert the author to the database"""
+    try :
+        logger.debug('About to insert author (%s) into the db', author)
+        cursor.execute('insert into quote_authors(AUTHOR) values(?)', 
+                       (author,))
 
-# TODO: Refactor code
+    except fdb.DatabaseError as e : 
+        # usually means that the author already exists in the db ...
+        logger.info('Could not insert author (%s): %s', author, e)
+        return False
+
+    return True
+
+def find_author_id(con, cursor, author, loggger=LOGGER) :
+    """Locate the author ID and return it"""
+
+    author_id = None
+
+    try :
+        logger.debug('About to get the author (%s) id', author)
+
+        cursor.execute('select id from quote_authors where author=?', 
+                       (author,))
+
+        author_id           = cursor.fetchone()[0]
+        logger.debug('Author (%s) id : %d', author, author_id)
+
+    except fdb.DatabaseError as e : # could not get the author id
+        logger.info('Could not find author (%s): %s', author, e)
+    
+    return author_id
+
 def handle_author_db(con, cursor, author, authors_ids, logger=LOGGER) :
     """work on the author side of the quote"""
 
@@ -127,29 +158,25 @@ def handle_author_db(con, cursor, author, authors_ids, logger=LOGGER) :
             return authors_ids[author]
 
         logger.debug('Author (%s) does not have a known id', author)
+        insert_author(con, cursor, author, logger)
 
-        try :
-            logger.debug('About to insert author (%s) into the db', author)
-            cursor.execute('insert into quote_authors(AUTHOR) values(?)', 
-                           (author,))
+        author_id = find_author_id(con, cursor, author, logger)
 
-        except fdb.DatabaseError as e : 
-            # usually means that the author already exists in the db ...
-            logger.info('Could not insert author (%s): %s', author, e)
+        if author_id :
+            logger.debug('working with the id for author (%s) : %d', 
+                         author, author_id)
 
-        try :
-            logger.debug('About to get the author (%s) id', author)
+            if not authors_ids.has_key(author) :
+                logger.debug('Add to authors_ids an new author: %s=%d', 
+                             author, author_id) 
 
-            cursor.execute('select id from quote_authors where author=?', 
-                           (author,))
-
-            row                 = cursor.fetchone()
-            author_id           = row[0]
-            logger.debug('Author (%s) id : %d', author, author_id)
-
-        except fdb.DatabaseError as e : # could not get the author id
-            logger.info('Could not find author (%s): %s', author, e)
-
+                authors_ids[author] = author_id
+            else :
+                logger.debug('The author (%s) already exist at authors_ids', 
+                             author)
+        else :
+            logger.error('ID is empty, author (%s) was not created ?!', author)
+        
     else : # if author
         logger.debug('Author is not set')
 
