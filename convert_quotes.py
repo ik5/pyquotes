@@ -41,7 +41,7 @@ def init_logger() :
 LOGGER = init_logger()
 LOGGER.info('Entering convert_quotes.py')
 QUOTES_FILE = 'quotes.txt'
-SEPARATOR   = '----\n'
+SEPARATOR   = '----'
 AUTHOR_MARK = '    '
 
 
@@ -82,7 +82,7 @@ def iter_quotes(quotes_file = QUOTES_FILE, logger = LOGGER) :
         quote = []
 
         for line in f:
-            if line != SEPARATOR : # not end of quote
+            if line.rstrip() != SEPARATOR : # not end of quote
                 quote.append(line)
 
             else : # end of quote
@@ -112,29 +112,36 @@ def iter_quotes(quotes_file = QUOTES_FILE, logger = LOGGER) :
 
     logger.debug('Total quotes found with iterator: %d', counter)
 
-def insert_to_db(con, quote, author, logger=LOGGER) :
+def insert_to_db(con, quote, author, authors_ids, logger=LOGGER) :
     """Insert quotes to the database"""
     cursor = con.cursor()
     author_id = None
     if author :
-        try :
-            logger.debug('About to insert author (%s) into the db', author)
-            cursor.execute('insert into quote_authors(AUTHOR) values(?)', 
-                           (author,))
-        except fdb.DatabaseError as e : 
-            # usually means that the author already exists ...
-            logger.info('Could not insert author (%s): %s', author, e)
+        if not authors_ids.has_key(author) :
+            logger.debug('Author (%s) does not have a known id', author)
+            try :
+                logger.debug('About to insert author (%s) into the db', author)
+                cursor.execute('insert into quote_authors(AUTHOR) values(?)', 
+                               (author,))
+            except fdb.DatabaseError as e : 
+                # usually means that the author already exists ...
+                logger.info('Could not insert author (%s): %s', author, e)
 
-        try :
-            logger.debug('About to get the author (%s) id', author)
-            cursor.execute('select id from quote_authors where author=?', 
-                           (author,))
+            try :
+                logger.debug('About to get the author (%s) id', author)
+                cursor.execute('select id from quote_authors where author=?', 
+                              (author,))
 
-            row       = cursor.fetchone()
-            author_id = row[0]
-            logger.debug('Author (%s) id : %d', author, author_id)
-        except fdb.DatabaseError as e : # could not get the author id
-            logger.info('Could not find author (%s): %s', author, e)
+                row                 = cursor.fetchone()
+                author_id           = row[0]
+                authors_ids[author] = author_id
+                logger.debug('Author (%s) id : %d', author, author_id)
+            except fdb.DatabaseError as e : # could not get the author id
+                logger.info('Could not find author (%s): %s', author, e)
+        else:
+            logger.debug('Author (%s) has a known id : %d', 
+                         author, authors_ids[author])
+            author_id = authors_ids[author]
     else:
         logger.debug('Author is not set')
 
@@ -156,8 +163,9 @@ def run(con, logger = LOGGER) :
     """The main execution loop"""
     LOGGER.debug('Starting to parse file:')
     counter = 0
+    authors_ids = {} # empty dict - mutable
     for quote, author in iter_quotes():
-        insert_to_db(con, quote, author)
+        insert_to_db(con, quote, author, authors_ids)
         counter += 1
 
     LOGGER.debug('Done parsing file. Total quotes: %d', counter)
