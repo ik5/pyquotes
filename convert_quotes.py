@@ -112,9 +112,9 @@ def iter_quotes(quotes_file = QUOTES_FILE, logger = LOGGER) :
 
     logger.debug('Total quotes found with iterator: %d', counter)
 
-def insert_to_db(con, quote, author, authors_ids, logger=LOGGER) :
-    """Insert quotes to the database"""
-    cursor = con.cursor()
+def handle_author_db(con, author, authors_ids, logger=LOGGER) :
+    """work on the author side of the quote"""
+# TODO: Refactor code
     author_id = None
     if author :
         if not authors_ids.has_key(author) :
@@ -139,11 +139,18 @@ def insert_to_db(con, quote, author, authors_ids, logger=LOGGER) :
             except fdb.DatabaseError as e : # could not get the author id
                 logger.info('Could not find author (%s): %s', author, e)
         else:
-            logger.debug('Author (%s) has a known id : %d', 
-                         author, authors_ids[author])
             author_id = authors_ids[author]
+            logger.debug('Author (%s) has a known id : %d', author, author_id)
     else:
         logger.debug('Author is not set')
+
+    return author_id
+
+
+def insert_to_db(con, quote, author, authors_ids, logger=LOGGER) :
+    """Insert quotes to the database"""
+    cursor    = con.cursor()
+    author_id = handle_author_db(con, author,authors_ids, logger)
 
     try :
         logger.debug('Going to insert quote ("%s") to db', quote)
