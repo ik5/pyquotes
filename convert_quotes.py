@@ -110,6 +110,7 @@ def iter_quotes(quotes_file = QUOTES_FILE, logger = LOGGER) :
                 quote = []
 
 def insert_to_db(con, quote, author, logger=LOGGER) :
+    """Insert quotes to the database"""
     cursor = con.cursor()
     author_id = None
     if author :
@@ -149,6 +150,7 @@ def insert_to_db(con, quote, author, logger=LOGGER) :
     return True
 
 def run(con, logger = LOGGER) :
+    """The main execution loop"""
     LOGGER.debug('Starting to parse file:')
     for quote, author in iter_quotes():
         insert_to_db(con, quote, author)
@@ -167,12 +169,11 @@ if __name__ == '__main__' :
     con = init_db()
     atexit.register(finalize, con)
 
-    run(con)
-    #try :
-    #    run(con)
-    #except :
-    #    LOGGER.critical('Unexpected exception was raised: %s', 
-    #                    sys.exc_info()[0])
-    #    finalize(con)
-    #    sys.exit()
+    try :
+        run(con)
+    except :
+        LOGGER.critical('Unexpected exception was raised: %s', 
+                        sys.exc_info()[0])
+        finalize(con)
+        sys.exit()
 
