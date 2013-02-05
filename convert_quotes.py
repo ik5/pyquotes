@@ -77,7 +77,6 @@ def finalize(db_connection, logger=LOGGER) :
 def iter_quotes(quotes_file = QUOTES_FILE, logger = LOGGER) :
     "Walks over the quotes file, yields (quote, author) tuples for each quote"
 
-    counter = 0
     with open(quotes_file) as f:
         quote = []
 
@@ -108,9 +107,7 @@ def iter_quotes(quotes_file = QUOTES_FILE, logger = LOGGER) :
                 # extract it for external handler
                 yield str_quote, author
                 quote = []
-                counter += 1
 
-    logger.debug('Total quotes found with iterator: %d', counter)
 
 def handle_author_db(con, author, authors_ids, logger=LOGGER) :
     """work on the author side of the quote"""
