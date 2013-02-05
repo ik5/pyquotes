@@ -177,7 +177,7 @@ def insert_to_db(con, quote, author, authors_ids, logger=LOGGER) :
         logger.debug('Going to insert quote ("%s") to db', quote)
 
         cursor.execute(('insert into quotes(body, author_ref) '
-            'values(?, ?)'), (quote, author_id))
+                        'values(?, ?)'), (quote, author_id))
 
         logger.debug('Going to commit everything')
 
