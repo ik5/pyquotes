@@ -98,7 +98,7 @@ def iter_quotes(quotes_file = QUOTES_FILE, logger = LOGGER) :
                 str_quote = ''.join(quote).rstrip()
                 if author :
                     logger.debug('About to work on quote "%s" by "%s"',
-                                 (str_quote, author)
+                                 str_quote, author
                                 )
                 else :
                     logger.debug('About to work on quote "%s" with no author',
@@ -120,7 +120,7 @@ def insert_to_db(con, quote, author, logger=LOGGER) :
                            (author,))
         except fdb.DatabaseError as e : 
             # usually means that the author already exists ...
-            logger.info('Could not insert author (%s): %s', (author, e))
+            logger.info('Could not insert author (%s): %s', author, e)
 
         try :
             logger.debug('About to get the author (%s) id', author)
@@ -129,9 +129,9 @@ def insert_to_db(con, quote, author, logger=LOGGER) :
 
             row       = cursor.fetchone()
             author_id = row[0]
-            logger.debug('Author (%s) id : %d', (author, author_id))
+            logger.debug('Author (%s) id : %d', author, author_id)
         except fdb.DatabaseError as e : # could not get the author id
-            logger.info('Could not find author (%s): %s', (author, e))
+            logger.info('Could not find author (%s): %s', author, e)
     else:
         logger.debug('Author is not set')
 
