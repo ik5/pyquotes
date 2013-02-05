@@ -110,7 +110,7 @@ def iter_quotes(quotes_file = QUOTES_FILE, logger = LOGGER) :
 
 
 # TODO: Refactor code
-def handle_author_db(con, author, authors_ids, logger=LOGGER) :
+def handle_author_db(con, cursor, author, authors_ids, logger=LOGGER) :
     """work on the author side of the quote"""
 
     author_id = None
@@ -157,8 +157,11 @@ def insert_to_db(con, quote, author, authors_ids, logger=LOGGER) :
     cursor    = con.cursor()
 
     try :
-        author_id = handle_author_db(con, author,authors_ids, logger)
-        logger.debug('Have author_id of %d', author_id)
+        author_id = handle_author_db(con, cursor, author,authors_ids, logger)
+        if author_id :
+            logger.debug('Have author_id of %d', author_id)
+        else :
+            logger.debug('We do not have author_id')
 
     except :
         logger.debug('Could not get the author id (due to exception)')
