@@ -117,7 +117,7 @@ def insert_to_db(con, quote, author, logger=LOGGER) :
         try :
             logger.debug('About to insert author (%s) into the db', author)
             cursor.execute('insert into quote_authors(AUTHOR) values(?)', 
-                           (author))
+                           (author,))
         except fdb.DatabaseError as e : 
             # usually means that the author already exists ...
             logger.info('Could not insert author (%s): %s', (author, e))
@@ -125,9 +125,10 @@ def insert_to_db(con, quote, author, logger=LOGGER) :
         try :
             logger.debug('About to get the author (%s) id', author)
             cursor.execute('select id from quote_authors where author=?', 
-                           (author))
+                           (author,))
 
-            author_id = cursor.fetchone['id']
+            row       = cursor.fetchone()
+            author_id = row[0]
             logger.debug('Author (%s) id : %d', (author, author_id))
         except fdb.DatabaseError as e : # could not get the author id
             logger.info('Could not find author (%s): %s', (author, e))
@@ -137,7 +138,7 @@ def insert_to_db(con, quote, author, logger=LOGGER) :
     try :
         logger.debug('Going to insert quote ("%s") to db', quote)
         cursor.execute(('insert into quotes(body, author_ref) '
-            'values(?, ?)'), (quote, author))
+            'values(?, ?)'), (quote, author_id))
 
         logger.debug('Going to commit everything')
         con.commit()
