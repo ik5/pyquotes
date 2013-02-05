@@ -61,18 +61,18 @@ def finalize(db_connection, logger=LOGGER) :
         logger.error('The database connection is already closed')
 
 
-def iter_quotes(quotes_file = QUOTES_FILE) :
+def iter_quotes(quotes_file = QUOTES_FILE, logger = LOGGER) :
     "Walks over the quotes file, yields (quote, author) tuples for each quote"
 
     with open(quotes_file) as f:
         quote = []
 
         for line in f:
-            if line != SEPARATOR :
-                if line.strip :
+            if line != SEPARATOR : # not end of quote
+                if line.strip : # not and empty line
                     quote.append(line)
 
-            else :
+            else : # end of quote
                 if not quote : # quote is empty ?
                     continue
 
@@ -81,8 +81,19 @@ def iter_quotes(quotes_file = QUOTES_FILE) :
                     author = quote.pop().strip()
                 else : # mark it as none it it was not found
                     author = None
+                
+                str_quote = ''.join(quote).rstrip()
+                if author :
+                    logger.debug('About to work on quote "%s" by "%s"',
+                                 (str_quote, author)
+                                )
+                else :
+                    logger.debug('About to work on quote "%s" with no author',
+                                 str_quote
+                                )
 
-                yield ''.join(quote).rstrip(), author
+                # extract it for external handler
+                yield str_quote, author
                 quote = []
 
 def insert_to_db(con, quote, author, logger=LOGGER) :
@@ -90,6 +101,7 @@ def insert_to_db(con, quote, author, logger=LOGGER) :
     author_id = None
     if author :
         try :
+            logger.debug('About to insert author (%s) into the db', author)
             cursor.execute('insert into quote_authors(AUTHOR) values(?)', 
                            author)
         except fdb.DatabaseError as e : 
@@ -97,24 +109,53 @@ def insert_to_db(con, quote, author, logger=LOGGER) :
             logger.info('Could not insert author (%s): %s', (author, e))
 
         try :
+            logger.debug('About to get the author (%s) id', author)
             cursor.execute('select id from quote_authors where author=?', 
                            author)
 
             author_id = cursor.fetchone['id']
+            logger.debug('Author (%s) id : %d', (author, author_id))
         except fdb.DatabaseError as e : # could not get the author id
             logger.info('Could not find author (%s): %s', (author, e))
+    else:
+        logger.debug('Author is not set')
 
     try :
+        logger.debug('Going to insert quote ("%s") to db', quote)
         cursor.execute(('insert into quotes(body, author_ref) '
-            'values(?, ?)'), quote, author)
+            'values(?, ?)'), (quote, author))
 
+        logger.debug('Going to commit everything')
         con.commit()
     except fdb.DatabaseError as e : # could not execute query or commit
         logger.error('Could not insert quote: %s', e)
+        con.rollback()
         return False
 
     return True
 
+def run(con, logger = LOGGER) :
+    LOGGER.debug('Starting to parse file:')
+    for quote, author in iter_quotes():
+        insert_to_db(con, quote, author)
 
-if __name__ == '__main__':
-    pass
+    LOGGER.debug('Done parsing file')
+
+
+if __name__ == '__main__' :
+    if not os.path.exists(QUOTES_FILE) :
+        LOGGER.critical('The file %s was not found', QUOTES_FILE)
+        sys.exit('Error: The file {0} was not found'.format(QUOTES_FILE))
+    else :
+        LOGGER.debug('Found the quote file')
+
+    LOGGER.debug('Starting the initialization ...')
+    con = init_db()
+    atexit.register(finalize, con)
+
+    try :
+        run()
+    except Exception as e :
+        LOGGER.critical('Unexpected exception was raised: %s', e)
+        finalize(con)
+
