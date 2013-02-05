@@ -117,7 +117,7 @@ def insert_to_db(con, quote, author, logger=LOGGER) :
         try :
             logger.debug('About to insert author (%s) into the db', author)
             cursor.execute('insert into quote_authors(AUTHOR) values(?)', 
-                           author)
+                           (author))
         except fdb.DatabaseError as e : 
             # usually means that the author already exists ...
             logger.info('Could not insert author (%s): %s', (author, e))
@@ -125,7 +125,7 @@ def insert_to_db(con, quote, author, logger=LOGGER) :
         try :
             logger.debug('About to get the author (%s) id', author)
             cursor.execute('select id from quote_authors where author=?', 
-                           author)
+                           (author))
 
             author_id = cursor.fetchone['id']
             logger.debug('Author (%s) id : %d', (author, author_id))
@@ -167,11 +167,12 @@ if __name__ == '__main__' :
     con = init_db()
     atexit.register(finalize, con)
 
-    try :
-        run()
-    except :
-        LOGGER.critical('Unexpected exception was raised: %s', 
-                        sys.exc_info()[0])
-        finalize(con)
-        sys.exit()
+    run(con)
+    #try :
+    #    run(con)
+    #except :
+    #    LOGGER.critical('Unexpected exception was raised: %s', 
+    #                    sys.exc_info()[0])
+    #    finalize(con)
+    #    sys.exit()
 
