@@ -17,7 +17,7 @@ def init_logger() :
 # I'm an Object Pascal developer, and that's how we do things, 
 # even our editors/ide support this :P
 #
-    logger    = logging.getLogger('convert_quotes')
+    logger = logging.getLogger('convert_quotes')
 
     # place output to file
     handler   = logging.FileHandler('log/convert.log')
@@ -54,9 +54,9 @@ def init_db(logger = LOGGER) :
 
     try :
         con = fdb.connect(
-                          dsn      = '127.0.0.1:quotes',
-                          user     = 'sysdba', 
-                          password = 'masterkey'
+                           dsn      = '127.0.0.1:quotes',
+                           user     = 'sysdba', 
+                           password = 'masterkey'
                          )
 
         logger.info('Connected to the database')
@@ -69,9 +69,11 @@ def init_db(logger = LOGGER) :
 
 def finalize(db_connection, logger=LOGGER) :
     """close the database connection"""
+
     if not db_connection.closed :
         logger.info('Closing database connection')
         db_connection.close
+
     else :
         logger.error('The database connection is already closed')
 
@@ -93,6 +95,7 @@ def iter_quotes(quotes_file = QUOTES_FILE, logger = LOGGER) :
                 # try to extract the author if exists 
                 if quote[-1].startswith(AUTHOR_MARK) :
                     author = quote.pop().strip()
+
                 else : # mark it as none it was not found
                     author = None
                 
@@ -101,12 +104,13 @@ def iter_quotes(quotes_file = QUOTES_FILE, logger = LOGGER) :
                     logger.debug('About to work on quote "%s" by "%s"',
                                  str_quote, author
                                 )
+
                 else :
                     logger.debug('About to work on quote "%s" with no author',
                                  str_quote
                                 )
 
-                # extract it for external handler
+                # extract it for an external handler
                 yield str_quote, author
                 quote = []
 
@@ -140,7 +144,6 @@ def handle_author_db(con, cursor, author, authors_ids, logger=LOGGER) :
 
             row                 = cursor.fetchone()
             author_id           = row[0]
-            authors_ids[author] = author_id
             logger.debug('Author (%s) id : %d', author, author_id)
 
         except fdb.DatabaseError as e : # could not get the author id
@@ -176,20 +179,23 @@ def insert_to_db(con, quote, author, authors_ids, logger=LOGGER) :
             'values(?, ?)'), (quote, author_id))
 
         logger.debug('Going to commit everything')
+
         con.commit()
 
     except fdb.DatabaseError as e : # could not execute query or commit
         logger.error('Could not insert quote: %s', e)
         con.rollback()
+
         return False
 
     return True
 
 def run(con, logger = LOGGER) :
     """The main execution loop"""
+
     LOGGER.debug('Starting to parse file:')
+
     counter = 0
-    authors_ids = {} # empty dict - mutable
     for quote, author in iter_quotes():
         if not insert_to_db(con, quote, author, authors_ids) :
             logger.critical('Could not insert quote ("%s") to database', quote)
@@ -205,6 +211,7 @@ if __name__ == '__main__' :
     if not os.path.exists(QUOTES_FILE) :
         LOGGER.critical('The file %s was not found', QUOTES_FILE)
         sys.exit('Error: The file {0} was not found'.format(QUOTES_FILE))
+
     else :
         LOGGER.debug('Found the quote file')
 
@@ -215,9 +222,11 @@ if __name__ == '__main__' :
 
     try :
         run(con)
+
     except :
         LOGGER.critical('Unexpected exception was raised: %s', 
                         sys.exc_info()[0])
+
         finalize(con)
         sys.exit()
 
