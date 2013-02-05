@@ -18,9 +18,23 @@ def init_logger() :
 # even our editors/ide support this :P
 #
     logger    = logging.getLogger('convert_quotes')
+
+    # place output to file
     handler   = logging.FileHandler('log/convert.log')
     formatter = logging.Formatter(('[%(asctime)s - %(levelname)s] '
                                    '%(message)s'))
+    handler.setLevel(logging.DEBUG)
+    handler.setFormatter(formatter)
+    logger.addHandler(handler)
+
+    # place output to screen
+    ch = logging.StreamHandler()
+    ch.setLevel(logging.DEBUG)
+    ch_format = logging.Formatter('%(levelname)s %(message)s')
+    ch.setFormatter(ch_format)
+
+    logger.addHandler(ch)
+
     return logger
 
 
@@ -155,7 +169,9 @@ if __name__ == '__main__' :
 
     try :
         run()
-    except Exception as e :
-        LOGGER.critical('Unexpected exception was raised: %s', e)
+    except :
+        LOGGER.critical('Unexpected exception was raised: %s', 
+                        sys.exc_info()[0])
         finalize(con)
+        sys.exit()
 
