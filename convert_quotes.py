@@ -20,9 +20,7 @@ def init_config() :
     if os.name == 'posix' :
         config_dir = '.%s' % (config_dir)
 
-    conf = '{0}{1}{2}{1}{3}{1}{4}'.format(home,       os.sep, 
-                                          config_dir, 'pyquotes',
-                                          'settings.conf')
+    conf = os.join(home. config_dir, 'pyquotes', 'settings.conf')
 
     config_dir = os.path.dirname(conf)
     if not os.path.exists(config_dir) :
