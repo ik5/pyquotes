@@ -8,6 +8,7 @@ import sys
 import fdb
 import logging
 import atexit
+import traceback
 
 def init_logger() :
     """initialize the logger"""
@@ -223,7 +224,9 @@ def run(con, logger = LOGGER) :
 
     LOGGER.debug('Starting to parse file:')
 
-    counter = 0
+    counter     = 0
+    authors_ids = {}
+
     for quote, author in iter_quotes():
         if not insert_to_db(con, quote, author, authors_ids) :
             logger.critical('Could not insert quote ("%s") to database', quote)
@@ -251,10 +254,9 @@ if __name__ == '__main__' :
     try :
         run(con)
 
-    except :
+    except Exception as e:
         LOGGER.critical('Unexpected exception was raised: %s', 
-                        sys.exc_info()[0])
+                        traceback.format_exc(e))
 
-        finalize(con)
         sys.exit()
 
