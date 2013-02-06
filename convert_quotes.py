@@ -31,7 +31,7 @@ def init_config() :
     config = ConfigParser.ConfigParser()
     config.read(conf)
     
-    return [config, conf]
+    return config, conf
 
 
 (CONFIG, CONFIG_FILE) = init_config()
