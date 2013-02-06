@@ -49,11 +49,18 @@ def set_config(section, value, content, config = CONFIG) :
 
 def get_config(section, value, default=None, config = CONFIG) :
     """Get a configuration settings"""
-
+    
+    # section does not exists
     if not config.has_section(section) :
         set_config(section, value, default, config)
         return default
+    
+    # option does not exists
+    if not config.has_option(section, value) :
+        set_config(section, value, default, config)
+        return default
 
+    # everything there ...
     return config.get(section, value, default)
 
 def init_logger() :
@@ -67,7 +74,9 @@ def init_logger() :
     logger = logging.getLogger('convert_quotes')
 
     # place output to file
-    handler   = logging.FileHandler('log/convert.log')
+    cur_log   = os.getcwd() + '{0}log{0}convert.log'.format(os.sep)
+    log_file  = get_config('main', 'logfile', cur_log)
+    handler   = logging.FileHandler(log_file)
     formatter = logging.Formatter(('[%(asctime)s - %(levelname)s] '
                                    '%(message)s'))
 
@@ -76,7 +85,7 @@ def init_logger() :
 
     # place output to screen
     ch        = logging.StreamHandler()
-    ch_format = logging.Formatter('%(levelname)s %(message)s')
+    ch_format = logging.Formatter('%(levelname)s\t%(message)s')
 
     ch.setFormatter(ch_format)
     logger.addHandler(ch)
@@ -89,7 +98,8 @@ def init_logger() :
 
 LOGGER = init_logger()
 LOGGER.info('Entering convert_quotes.py')
-QUOTES_FILE = 'quotes.txt'
+QUOTES_FILE = get_config('main', 'quote_file', 
+                         '{0}{1}quotes.txt'.format(os.getcwd(), os.sep))
 SEPARATOR   = '----'
 AUTHOR_MARK = '    '
 
@@ -99,11 +109,15 @@ def init_db(logger = LOGGER) :
     """initialize the database connection
        raised an fdb.DatabaseError if database error"""
 
+    db_name = get_config('main', 'db_name', 'quotes')
+    db_host = get_config('main', 'db_host', '127.0.0.1')
+    db_user = get_config('main', 'db_user', 'sysdba')
+    db_pass = get_config('main', 'db_pass', 'masterkey')
     try :
         con = fdb.connect(
-                           dsn      = '127.0.0.1:quotes',
-                           user     = 'sysdba', 
-                           password = 'masterkey'
+                           dsn      = '{0}:{1}'.format(db_host, db_name),
+                           user     = db_user, 
+                           password = db_pass
                          )
 
         logger.info('Connected to the database')
