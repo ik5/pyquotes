@@ -36,16 +36,22 @@ def init_config() :
 
 (CONFIG, CONFIG_FILE) = init_config()
 
+def save_config_file(config = CONFIG, name = CONFIG_FILE) :
+    with open(name, 'wb') as conf :
+        config.write(conf)
+
+def set_config(section, value, content, config = CONFIG) :
+    if not config.has_section(section) :
+        config.add_section(section)
+
+    config.set(section, value, content)
+    save_config_file(config)
+
 def get_config(section, value, default=None, config = CONFIG) :
     """Get a configuration settings"""
 
     if not config.has_section(section) :
-        config.add_section(section)
-        config.set(section, value, default)
-
-        with open(CONFIG_FILE, 'wb') as conf :
-            config.write(conf)
-
+        set_config(section, value, default, config)
         return default
 
     return config.get(section, value, default)
