@@ -20,7 +20,7 @@ def init_config() :
     if os.name == 'posix' :
         config_dir = '.%s' % (config_dir)
 
-    conf = os.join(home. config_dir, 'pyquotes', 'settings.conf')
+    conf = os.path.join(home, config_dir, 'pyquotes', 'settings.conf')
 
     config_dir = os.path.dirname(conf)
     if not os.path.exists(config_dir) :
@@ -72,7 +72,7 @@ def init_logger() :
     logger = logging.getLogger('convert_quotes')
 
     # place output to file
-    cur_log   = os.join(os.getcwd(), 'log', 'convert.log')
+    cur_log   = os.path.join(os.getcwd(), 'log', 'convert.log')
     log_file  = get_config('main', 'logfile', cur_log)
     handler   = logging.FileHandler(log_file)
     formatter = logging.Formatter(('[%(asctime)s - %(levelname)s] '
@@ -97,7 +97,7 @@ def init_logger() :
 LOGGER = init_logger()
 LOGGER.info('Entering convert_quotes.py')
 QUOTES_FILE = get_config('main', 'quote_file', 
-                         os.join(os.getcdws(), 'quotes.txt'))
+                         os.path.join(os.getcwd(), 'quotes.txt'))
 SEPARATOR   = '----'
 AUTHOR_MARK = '    '
 
@@ -113,7 +113,7 @@ def init_db(logger = LOGGER) :
     db_pass = get_config('main', 'db_pass', 'masterkey')
     try :
         con = fdb.connect(
-                           dsn      = ':'.join(db_host, db_name),
+                           dsn      = ':'.join((db_host, db_name)),
                            user     = db_user, 
                            password = db_pass
                          )
