@@ -9,6 +9,46 @@ import fdb
 import logging
 import atexit
 import traceback
+import ConfigParser
+
+def init_config() :
+    """Initialize config file"""
+
+    home = os.path.expanduser('~')
+
+    config_dir = 'config'
+    if os.name == 'posix' :
+        config_dir = '.%s' % (config_dir)
+
+    conf = '{0}{1}{2}{1}{3}{1}{4}'.format(home,       os.sep, 
+                                          config_dir, 'pyquotes',
+                                          'settings.conf')
+
+    config_dir = os.path.dirname(conf)
+    if not os.path.exists(config_dir) :
+        os.makedirs(config_dir)
+
+    config = ConfigParser.ConfigParser()
+    config.read(conf)
+    
+    return [config, conf]
+
+
+(CONFIG, CONFIG_FILE) = init_config()
+
+def get_config(section, value, default=None, config = CONFIG) :
+    """Get a configuration settings"""
+
+    if not config.has_section(section) :
+        config.add_section(section)
+        config.set(section, value, default)
+
+        with open(CONFIG_FILE, 'wb') as conf :
+            config.write(conf)
+
+        return default
+
+    return config.get(section, value, default)
 
 def init_logger() :
     """initialize the logger"""
