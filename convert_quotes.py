@@ -72,7 +72,7 @@ def init_logger() :
     logger = logging.getLogger('convert_quotes')
 
     # place output to file
-    cur_log   = os.getcwd() + '{0}log{0}convert.log'.format(os.sep)
+    cur_log   = os.join(os.getcwd(), 'log', 'convert.log')
     log_file  = get_config('main', 'logfile', cur_log)
     handler   = logging.FileHandler(log_file)
     formatter = logging.Formatter(('[%(asctime)s - %(levelname)s] '
@@ -97,7 +97,7 @@ def init_logger() :
 LOGGER = init_logger()
 LOGGER.info('Entering convert_quotes.py')
 QUOTES_FILE = get_config('main', 'quote_file', 
-                         '{0}{1}quotes.txt'.format(os.getcwd(), os.sep))
+                         os.join(os.getcdws(), 'quotes.txt'))
 SEPARATOR   = '----'
 AUTHOR_MARK = '    '
 
@@ -113,7 +113,7 @@ def init_db(logger = LOGGER) :
     db_pass = get_config('main', 'db_pass', 'masterkey')
     try :
         con = fdb.connect(
-                           dsn      = '{0}:{1}'.format(db_host, db_name),
+                           dsn      = ':'.join(db_host, db_name),
                            user     = db_user, 
                            password = db_pass
                          )
