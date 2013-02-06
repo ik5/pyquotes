@@ -130,7 +130,7 @@ def insert_author(con, cursor, author, logger=LOGGER) :
 
     return True
 
-def find_author_id(con, cursor, author, loggger=LOGGER) :
+def find_author_id(con, cursor, author, logger=LOGGER) :
     """Locate the author ID and return it"""
 
     author_id = None
@@ -197,8 +197,9 @@ def insert_to_db(con, quote, author, authors_ids, logger=LOGGER) :
         else :
             logger.debug('We do not have author_id')
 
-    except :
-        logger.debug('Could not get the author id (due to exception)')
+    except Exception as e:
+        logger.debug('Could not get the author id (due to exception): %s', 
+                     traceback.format_exc(e))
         author_id = None
 
     try :
