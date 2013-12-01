@@ -11037,7 +11037,7 @@ I walk around it.
 I walk down another street
     By Portia Nelson
 ----
-I see a glass and a lequid, and I choose how to look at it, and use it
+I see a glass and a liquid, and I choose how to look at it, and use it
 ----
 There are only two hard things in Computer Science: cache invalidation, naming things and off-by-one errors.
     Cody Brocious, seen at https://twitter.com/#!/daeken/status/181865909865029632
