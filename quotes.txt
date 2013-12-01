@@ -12100,7 +12100,7 @@ War contains so much folly, as well as wickedness, that much is to be hoped from
 What spectacle can be more edifying or more seasonable, than that of Liberty and Learning, each leaning on the other for their mutual and surest support?
     James Madison
 ----
- Never attribute to malice that which is adequately explained by stupidity.
+Never attribute to malice that which is adequately explained by stupidity.
     Hanlon's razor
 ----
 A well-known principle of human behavior says that when we ask someone to do us 
