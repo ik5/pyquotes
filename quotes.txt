@@ -13845,8 +13845,7 @@ I see a glass and a liquid, and I choose how to look at it, and use it
 ----
 There are only two hard things in Computer Science: cache invalidation, naming
 things and off-by-one errors.
-    Cody Brocious, seen at
-https://twitter.com/#!/daeken/status/181865909865029632
+    Cody Brocious, seen at https://twitter.com/#!/daeken/status/181865909865029632
 ----
 Sometimes the questions are complicated and the answers are simple.
     Dr. Seuss
@@ -14026,8 +14025,7 @@ their songs too sweet and wild. So you let them go, or when you open the cage to
 feed them they somehow fly out past you. And the part of you that knows it was
 wrong to imprison them in the first place rejoices, but still, the place where
 you live is that much more drab and empty for their departure.”
-    Stephen King, Rita Hayworth and Shawshank Redemption: A Story from
-Different Seasons
+    Stephen King, Rita Hayworth and Shawshank Redemption: A Story from Different Seasons
 ----
 If people refuse to look at you in a new light and they can only see you for
 what you were, only see you for the mistakes you've made, if they don't realize
