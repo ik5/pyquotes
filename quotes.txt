@@ -797,7 +797,7 @@ Death is life's way of telling you you've been fired.
 ----
 Destiny is a good thing to accept when it's going your way. When it isn't,
 don't call it destiny; call it injustice, treachery, or simple bad luck.
-    Joseph Heller, "God Knows"
+    JJoseph Heller, "God Knows"
 ----
 Disease can be cured; fate is incurable.
     Chinese proverb
@@ -2007,7 +2007,7 @@ it reflects our limited capacity to comprehend the whole."
     Benjamin Franklin (1706-1790)
 ----
 "It is better to be feared than loved, if you cannot be both."
-    Niccolo Machiavelli (1469-1527), "The Prince"
+    NNiccolo Machiavelli (1469-1527), "The Prince"
 ----
 "It's not the size of the dog in the fight, it's the size of the fight in the
 dog."
@@ -2656,7 +2656,7 @@ ashtray."
     Nietzche
 ----
 "Everybody has a right to be stupid, but some people abuse the privilege."
-    Joseph Stalin
+    JJoseph Stalin
 ----
 "It's cool! It's groovy! It's got penguins! And wibbly bits!"
     Pete Scathe
@@ -3493,16 +3493,16 @@ An ambassador is an honest man sent abroad to lie for his country.
 ----
 The illiterate of the 21st century will not be those who cannot read and write,
 but those who cannot learn, unlearn, and relearn.
-    Alvin Toffler
+    Calvin Toffler
 ----
 The enemy is anybody who's going to get you killed, no matter which side he's
 on.
-    Joseph Heller from Catch 22
+    JJoseph Heller from Catch 22
 ----
 "People want more.  Thought is overrated.  Look back at history, my dear
 Socrates, and you will see that all the powerful ideas that have moved men most
 were simpleminded and superficial, never deep."
-    Joseph Heller from Catch 22
+    JJoseph Heller from Catch 22
 ----
 Man is by nature a political animal.
     Aristotle ,  Politics
@@ -3900,7 +3900,7 @@ Calvin: "Well there'd better NOT be! I'd hate to have to torch one with my
 flame thrower!"
 Hobbes: "You have a flame thrower ??"
 Calvin: "They lie I lie"
-    From Calvin and Hobbes
+    From CCalvin and Hobbes
 ----
 The man who comes with a tale about others has himself an ax to grind.
     Chinese proverb
@@ -3968,7 +3968,7 @@ The question is not, can they reason? Nor, can they talk? But, can they suffer?
     Jeremy Bentham
 ----
 Never cut what you can untie.
-    Joseph Joubert
+    JJoseph Joubert
 ----
 I respect faith, but doubt is what gets you an education.
     Wilson Mizner
@@ -5135,7 +5135,7 @@ IGNORANCE IS STRENGTH
 ----
 Every age is fed on illusions, lest men should renounce life early and the
 human race come to an end.
-    Joseph Conrad
+    JJoseph Conrad
 ----
 The wise learn many things from their enemies.
     Aristophanes ,  Birds (414 BC)
@@ -5933,7 +5933,7 @@ herds, while they only recover their senses slowly, and one by one
 He who wants to persuade should put his trust not in the right argument, but in
 the right word. The power of sound has always been greater than the power of
 sense
-    Joseph Conrad, Lord Jim, 1900
+    JJoseph Conrad, Lord Jim, 1900
 ----
 It is worthy of remark that a belief constantly inculcated during the early
 years of life, whilst the brain is impressible, appears to acquire almost the
@@ -7485,7 +7485,7 @@ communicate with machines.
 ----
 Having a resume begs for you to go into that big machine that looks for
 relevant keywords, and begs for you to get a job as a cog in a giant machine.
-    seth Godin
+    Seth Godin
 ----
 The flip side of code ownership is code responsibility.
     Jeff Atwood
@@ -9806,22 +9806,22 @@ From the dream come the vision
 From the vision come the people
 From the people come the power
 From this power come the change
-    peter Gabriel
+    Peter Gabriel
 ----
 One thing that really appeals to me is this idea of music being a living thing
 that has an evolution that, in a way, enables the artist to sell a process
 rather than a piece of product.
-    peter Gabriel
+    Peter Gabriel
 ----
 As the band got more successful, it was increasingly difficult to get people to
 take a risk with something that might jeopardize their livelihood.
-    peter Gabriel, on Genesis
+    Peter Gabriel, on Genesis
 ----
 I think it is the weak and the young and the minorities that you need to look
 after to get a healthy creative environment - to get a lot of choices, a lot of
 different styles of music, a lot experimental stuff that everyone else feeds
 off.
-    peter Gabriel
+    Peter Gabriel
 ----
 Without a good library, most interesting tasks are hard to do in C++;
 but given a good library, almost any task can be made easy.
@@ -10517,7 +10517,7 @@ cultural artist.
 Somebody out there is going to do something that's far more surprising than
 anything that I would do. I was surprised by the whole web thing in the first
 place.
-    arry Wall, http://linuxshellaccount.blogspot.com/2009/01/quotes-from-larry-wall-unix-and-linux.html
+    Larry Wall, http://linuxshellaccount.blogspot.com/2009/01/quotes-from-larry-wall-unix-and-linux.html
 ----
 The Harvard Law states: Under controlled conditions of light, temperature,
 humidity, and nutrition, the organism will do as it damn well pleases.
@@ -10565,329 +10565,329 @@ Next to being married, a girl likes to be crossed in love a little now and then.
     Jane Austen
 ----
 Pretend inferiority and encourage his arrogance.
-    Sun Tzu
+    SSun Tzu
 ----
 Regard your soldiers as your children, and they will follow you into the
 deepest valleys; look on them as your own beloved sons, and they will stand by
 you even unto death.
-    Sun Tzu
+    SSun Tzu
 ----
 Opportunities multiply as they are seized.
-    Sun Tzu
+    SSun Tzu
 ----
 Supreme excellence consists in breaking the enemy's resistance without fighting.
-    Sun Tzu
+    SSun Tzu
 ----
 War is based on deception.
-    un Tzu
+    SSun Tzu
 ----
 The art of war teaches us to rely not on the likelihood of the enemy's not
 coming, but on our own readiness to receive him; not on the chance of his not
 attacking, but rather on the fact that we have made our position unassailable.
-    un Tzu
+    SSun Tzu
 ----
 Strategy without tactics is the slowest route to victory. Tactics without
 strategy is the noise before defeat.
-    un Tzu
+    SSun Tzu
 ----
 You have to believe in yourself.
-    un Tzu
+    SSun Tzu
 ----
 Let your plans be dark and as impenetrable as night, and when you move, fall
 like a thunderbolt.
-    un Tzu
+    SSun Tzu
 ----
 Victorious warriors win first and then go to war, while defeated warriors go to
 war first and then seek to win.
-    un Tzu
+    SSun Tzu
 ----
 If you know the enemy and know yourself you need not fear the results of a
 hundred battles.
-    un Tzu
+    SSun Tzu
 ----
 Can you imagine what I would do if I could do all I can?
-    un Tzu
+    SSun Tzu
 ----
 Know thy self, know thy enemy. A thousand battles, a thousand victories.
-    un Tzu
+    SSun Tzu
 ----
 Be extremely subtle, even to the point of formlessness. Be extremely
 mysterious, even to the point of soundlessness. Thereby you can be the director
 of the opponent's fate.
-    un Tzu
+    SSun Tzu
 ----
 Invincibility lies in the defence; the possibility of victory in the Attack.
-    un Tzu
+    SSun Tzu
 ----
 Prohibit the taking of omens, and do away with superstitious doubts. Then,
 until death itself comes, no calamity need be feared.
-    un Tzu
+    SSun Tzu
 ----
 If you are far from the enemy, make him believe you are near.
-    un Tzu
+    SSun Tzu
 ----
 The good fighters of old first put themselves beyond the possibility of defeat,
 and then waited for an opportunity of defeating the enemy.
-    un Tzu
+    SSun Tzu
 ----
 Thus, what is of supreme importance in war is to attack the enemy's strategy.
-    un Tzu
+    SSun Tzu
 ----
 For to win one hundred victories in one hundred battles is not the acme of
 skill. To subdue the enemy without fighting is the acme of skill.
-    un Tzu
+    SSun Tzu
 ----
 There has never been a protracted war from which a country has benefited.
-    un Tzu
+    SSun Tzu
 ----
 All warfare is based on deception. Hence, when able to attack, we must seem
 unable; when using our forces, we must seem inactive; when we are near, we must
 make the enemy believe we are far away; when far away, we must make him believe
 we are near.
-    un Tzu
+    Sun Tzu
 ----
 All war is deception.
-    un Tzu
+    Sun Tzu
 ----
 The one who figures on victory at headquarters before even doing battle is the
 one who has the most strategic factors on his side.
-    un Tzu
+    Sun Tzu
 ----
 If you know the enemy and know yourself, your victory will not stand in doubt;
 if you know Heaven and know Earth, you may make your victory complete.
-    un Tzu
+    Sun Tzu
 ----
 The opportunity to secure ourselves against defeat lies in our own hands, but
 the opportunity of defeating the enemy is provided by the enemy himself.
-    un Tzu
+    Sun Tzu
 ----
 He who knows when he can fight and when he cannot, will be victorious.
-    un Tzu
+    Sun Tzu
 ----
 For them to perceive the advantage of defeating the enemy, they must also have
 their rewards.
-    un Tzu
+    Sun Tzu
 ----
 Confront them with annihilation, and they will then survive; plunge them into a
 deadly situation, and they will then live. When people fall into danger, they
 are then able to strive for victory.
-    un Tzu
+    Sun Tzu
 ----
 He who is prudent and lies in wait for an enemy who is not, will be victorious.
-    un Tzu
+    Sun Tzu
 ----
 If ignorant both of your enemy and yourself, you are certain to be in peril.
-    un Tzu
+    Sun Tzu
 ----
 All men can see these tactics whereby I conquer, but what none can see is the
 strategy out of which victory is evolved.
-    un Tzu
+    Sun Tzu
 ----
 The skilful employer of men will employ the wise man, the brave man, the
 covetous man, and the stupid man.
-    un Tzu
+    Sun Tzu
 ----
 In the practical art of war, the best thing of all is to take the enemy's
 country whole and intact; to shatter and destroy it is not so good.
-    un Tzu
+    Sun Tzu
 ----
 There is no instance of a nation benefiting from prolonged warfare.
-    un Tzu
+    Sun Tzu
 ----
 Thus it is that in war the victorious strategist only seeks battle after the
 victory has been won, whereas he who is destined to defeat first fights and
 afterwards looks for victory.
-    un Tzu
+    Sun Tzu
 ----
 The enlightened ruler is heedful, and the good general full of caution.
-    un Tzu
+    Sun Tzu
 ----
 Secret operations are essential in war; upon them the army relies to make its
 every move.
-    un Tzu
+    Sun Tzu
 ----
 Hence that general is skilful in attack whose opponent does not know what to
 defend; and he is skilful in defense whose opponent does not know what to
 attack.
-    un Tzu
+    Sun Tzu
 ----
 The general who wins the battle makes many calculations in his temple before
 the battle is fought. The general who loses makes but few calculations
 beforehand.
-    un Tzu
+    Sun Tzu
 ----
 Do not press an enemy at bay.
-    un Tzu
+    Sun Tzu
 ----
 The skillful leader subdues the enemy's troops without any fighting; he
 captures their cities without laying siege to them; he overthrows their kingdom
 without lengthy operations in the field. With his forces intact he disputes the
 mastery of the emp
-    un Tzu
+    Sun Tzu
 ----
 A kingdom that has once been destroyed can never come again into being; nor can
 the dead ever be brought back to life.
-    un Tzu
+    Sun Tzu
 ----
 A wise general makes a point of foraging of the enemy.
-    un Tzu
+    Sun Tzu
 ----
 When envoys are sent with compliments in their mouths, it is a sign that the
 enemy wishes for a truce.
-    un Tzu
+    Sun Tzu
 ----
 The art of giving orders is not to try to rectify the minor blunders and not to
 be swayed by petty doubts.
-    un Tzu
+    Sun Tzu
 ----
 So there are five ways of knowing who will win. Those who know when to fight
 and when not to fight are victorious. Those who discern when to use many or few
 troops are victorious. Those whose upper and lower ranks have the same desire
 are victorious.
-    un Tzu
+    Sun Tzu
 ----
 It is essential to seek out enemy agents who have come to conduct espionage
 against you and to bribe them to serve you. Give them instructions and care for
 them. Thus doubled agents are recruited and used.
-    un Tzu
+    Sun Tzu
 ----
 defeat the enemies strategy
-    un Tzu
+    Sun Tzu
 ----
 The quality of decision is like the well-timed swoop of a falcon which enables
 it to strike and destroy its victim.
-    un Tzu
+    Sun Tzu
 ----
 O divine art of subtlety and secrecy! Through you we learn to be invisible,
 through you inaudible and hence we can hold the enemy's fate in our hands.
-    un Tzu
+    Sun Tzu
 ----
 There are not more than five musical notes, yet the combinations of these five
 give rise to more melodies than can ever be heard.
-    un Tzu
+    Sun Tzu
 ----
 Now the reason the enlightened prince and the wise general conquer the enemy
 whenever they move and their achievements surpass those of ordinary men is
 foreknowledge.
-    un Tzu
+    Sun Tzu
 ----
 If our soldiers are not overburdened with money, it is not because they have a
 distaste for riches; if their lives are not unduly long, it is not because they
 are disinclined to longevity.
-    un Tzu
+    Sun Tzu
 ----
 The general who advances without coveting fame and retreats without fearing
 disgrace, whose only thought is to protect his country and do good service for
 his sovereign, is the jewel of the kingdom.
-    un Tzu
+    Sun Tzu
 ----
 The ultimate in disposing one's troops is to be without ascertainable shape.
 Then the most penetrating spies cannot pry in nor can the wise lay plans
 against you.
-    un Tzu
+    Sun Tzu
 ----
 So the important thing in a military operation is victory, not persistence.
-    un Tzu
+    Sun Tzu
 ----
 To perceive victory when it is known to all is not really skilful. Everyone
 calls victory in battle good, but it is not really good.
-    un Tzu
+    Sun Tzu
 ----
 In peace prepare for war, in war prepare for peace. The art of war is of vital
 importance to the state. It is matter of life and death, a road either to
 safety or to ruin. Hence under no circumstances can it be neglected.
-    un Tzu
+    Sun Tzu
 ----
 It is imperative to contest all factions for complete victory, so the army is
 not garrisoned and the profit can be total. This is the law of strategic siege.
-    un Tzu
+    Sun Tzu
 ----
 The best victory is when the opponent surrenders of its own accord before there
 are any actual hostilities...It is best to win without fighting.
-    un Tzu
+    Sun Tzu
 ----
 Therefore a victorious army first wins and then seeks battle; a defeated army
 first battles and then seeks victory.
-    un Tzu
+    Sun Tzu
 ----
 According to my assessment, even if you have many more troops than others, how
 can that help you to victory?
-    un Tzu
+    Sun Tzu
 ----
 Of all those in the army close to the commander none is more intimate than the
 secret agent; of all rewards none more liberal than those given to secret
 agents; of all matters none is more confidential than those relating to secret
 operations.
-    un Tzu
+    Sun Tzu
 ----
 If fighting is sure to result in victory, then you must fight, even though the
 ruler forbid it; if fighting will not result is victory, then you must not
 fight, even at the ruler's bidding.
-    un Tzu
+    Sun Tzu
 ----
 The proximity of an army causes prices to go up; and high prices cause people's
 substance to be drained away. When their substance is drained away, they will
 be afflicted by heavy exactions. With this loss of substance and exhaustion of
 strength, the homes of the people will be stripped bare, and their incomes
 dissipated.
-    un Tzu
+    Sun Tzu
 ----
 One who sets the entire army in motion to chase an advantage will not attain it.
-    un Tzu
+    Sun Tzu
 ----
 Unhappy is the fate of one who tries to win his battles and succeed in his
 attacks without cultivating the spirit of enterprise, for the result is waste
 of time and general stagnation.
-    un Tzu
+    Sun Tzu
 ----
 The clever combatant imposes his will on the enemy, but does not allow the
 enemy's will to be imposed on him.
-    un Tzu
+    Sun Tzu
 ----
 I know why it has the name "C" and "C++" for the languages: It's the grade of
 the language...
-    do Kanner
+    Ido Kanner
 ----
 Tardiness often robs us opportunity, and the dispatch of our forces.
-    iccolo Machiavelli
+    Niccolo Machiavelli
 ----
 There is nothing more difficult to take in hand, more perilous to conduct or
 more uncertain in its success than to take the lead in the introduction of a
 new order of things.
-    iccolo Machiavelli
+    Niccolo Machiavelli
 ----
 Hatred is gained as much by good works as by evil.
-    iccolo Machiavelli
+    Niccolo Machiavelli
 ----
 Before all else, be armed.
-    iccolo Machiavelli
+    Niccolo Machiavelli
 ----
 The more sand that has escaped from the hourglass of our life, the clearer we
 should see through it.
-    iccolo Machiavelli
+    Niccolo Machiavelli
 ----
 There are three kinds of intelligence: one kind understands things for itself,
 the other appreciates what others can understand, the third understands neither
 for itself nor through others. This first kind is excellent, the second good,
 and the third kind useless.
-    iccolo Machiavelli
+    Niccolo Machiavelli
 ----
 Whosoever desires constant success must change his conduct with the times.
-    iccolo Machiavelli
+    Niccolo Machiavelli
 ----
 Men shrink less from offending one who inspires love than one who inspires fear.
-    iccolo Machiavelli
+    Niccolo Machiavelli
 ----
 He who wishes to be obeyed must know how to command.
-    iccolo Machiavelli
+    Niccolo Machiavelli
 ----
 There is no surer sign of decay in a country than to see the rites of religion
 held in contempt
-    iccolo Machiavelli
+    Niccolo Machiavelli
 ----
 So long as the great majority of men are not deprived of either property or
 honor, they are satisfied
-    iccolo Machiavelli
+    Niccolo Machiavelli
 ----
 And here comes in the question whether it is better to be loved rather than
 feared, or feared rather than loved. It might perhaps be answered that we
@@ -10896,71 +10896,71 @@ we must choose between them, it is far safer to be feared than loved....I sum
 up by saying that since his being loved depends upon his subjects, while his
 being feared depends upon himself, [one] should build on what is his own, and
 not on what rests with others.
-    iccolo Machiavelli
+    Niccolo Machiavelli
 ----
 Men in general judge more from appearances than from reality. All men have
 eyes, but few have the gift of penetration
-    iccolo Machiavelli
+    Niccolo Machiavelli
 ----
 For as laws are necessary that good manners be preserved, so there is need of
 good manners that law may be maintained
-    iccolo Machiavelli
+    Niccolo Machiavelli
 ----
 War is just when it is necessary; arms are permissible when there is no hope
 except in arms.
-    iccolo Machiavelli
+    Niccolo Machiavelli
 ----
 Entrepreneurs are simply those who understand that there is little difference
 between obstacle and opportunity and are able to turn both to their advantage.
-    iccolo Machiavelli
+    Niccolo Machiavelli
 ----
 It is better to be feared than loved, if you cannot be both.
-    iccolo Machiavelli
+    Niccolo Machiavelli
 ----
 Men in general judge more by the sense of sight than by the sense of touch,
 because everyone can see, but only a few can test by feeling. Everyone sees
 what you seem to be, few know what you really are, and those few do not dare
 take a stand against the general opinion.
-    iccolo Machiavelli
+    Niccolo Machiavelli
 ----
 Of mankind we may say in general they are fickle, hypocritical, and greedy of
 gain.
-    iccolo Machiavelli
+    Niccolo Machiavelli
 ----
 There is no avoiding war; it can only be postponed to the advantage of others.
-    iccolo Machiavelli
+    Niccolo Machiavelli
 ----
 One who deceives will always find those who allow themselves to be deceived.
-    iccolo Machiavelli
+    Niccolo Machiavelli
 ----
 The promise given was a necessity of the past: the word broken is a necessity
 of the present.
-    iccolo Machiavelli
+    Niccolo Machiavelli
 ----
 God is not willing to do everything, and thus take away our free will and that
 share of glory which belongs to us
-    iccolo Machiavelli
+    Niccolo Machiavelli
 ----
 I'm not interested in preserving the status quo; I want to overthrow it.
-    iccolo Machiavelli
+    Niccolo Machiavelli
 ----
 Never was anything great achieved without danger
-    iccolo Machiavelli
+    Niccolo Machiavelli
 ----
 Politics have no relation to morals.
-    iccolo Machiavelli
+    Niccolo Machiavelli
 ----
 There is nothing more difficult to carry out, nor more doubtful of success, nor
 more dangerous to handle, that to institute a new order of things
-    iccolo Machiavelli
+    Niccolo Machiavelli
 ----
 Men are so simple and so much inclined to obey immediate needs that a deceiver
 will never lack victims for his deceptions
-    iccolo Machiavelli
+    Niccolo Machiavelli
 ----
 If an injury has to be done to a man it should be so severe that his vengeance
 need not be feared
-    iccolo Machiavelli
+    Niccolo Machiavelli
 ----
 A prince must imitate the fox and the lion, for the lion cannot protect himself
 from traps, and the fox cannot defend himself from wolves. One must therefore
@@ -10970,114 +10970,114 @@ keep faith when by so doing it would be against his interest, and when the
 reasons which made him bind himself no longer exist. If men were all good, this
 precept would not be a good one; but as they are bad, and would not observe
 their faith with you, so you are not bound to keep faith with them.
-    iccolo Machiavelli
+    Niccolo Machiavelli
 ----
 It is not titles that honor men, but men that honor titles.
-    iccolo Machiavelli
+    Niccolo Machiavelli
 ----
 The question is, then, do we try to make things easy on ourselves or do we try
 to make things easy on our customers, whoever they may be?
-    iccolo Machiavelli
+    Niccolo Machiavelli
 ----
 And if, to be sure, sometimes you need to conceal a fact with words, do it in
 such a way that it does not become known, or, if it does become known, that you
 have a ready and quick defense
-    iccolo Machiavelli
+    Niccolo Machiavelli
 ----
 Where the willingness is great the difficulties cannot be great
-    iccolo Machiavelli
+    Niccolo Machiavelli
 ----
 The new ruler must determine all the injuries that he will need to inflict. He
 must inflict them once and for all.
-    iccolo Machiavelli
+    Niccolo Machiavelli
 ----
 A wise ruler ought never to keep faith when by doing so it would be against his
 interests.
-    iccolo Machiavelli
+    Niccolo Machiavelli
 ----
 Men should be either treated generously or destroyed, because they take revenge
 for slight injuries - for heavy ones they cannot
-    iccolo Machiavelli
+    Niccolo Machiavelli
 ----
 Princes and governments are far more dangerous than other elements within
 society.
-    iccolo Machiavelli
+    Niccolo Machiavelli
 ----
 No enterprise is more likely to succeed than one concealed from the enemy until
 it is ripe for execution.
-    iccolo Machiavelli
+    Niccolo Machiavelli
 ----
 It is necessary for him who lays out a state and arranges laws for it to
 presuppose that all men are evil and that they are always going to act
 according to the wickedness of their spirits whenever they have free scope
-    iccolo Machiavelli
+    Niccolo Machiavelli
 ----
 Hence it comes about that all armed prophets have been victorious, and all
 unarmed prophets have been destroyed.
-    iccolo Machiavelli
+    Niccolo Machiavelli
 ----
 The wish to acquire more is admittedly a very natural and common thing; and
 when men succeed in this they are always praised rather than condemned. But
 when they lack the ability to do so and yet want to acquire more at all costs,
 they deserve condemnation for their mistakes.
-    iccolo Machiavelli
+    Niccolo Machiavelli
 ----
 Benefits should be conferred gradually; and in that way they will taste better
-    iccolo Machiavelli
+    Niccolo Machiavelli
 ----
 Men are more apt to be mistaken in their generalizations than in their
 particular observations.
-    iccolo Machiavelli
+    Niccolo Machiavelli
 ----
 Men rise from one ambition to another: first, they seek to secure themselves
 against attack, and then they attack others.
-    iccolo Machiavelli
+    Niccolo Machiavelli
 ----
 The one who adapts his policy to the times prospers, and likewise that the one
 whose policy clashes with the demands of the times does not.
-    iccolo Machiavelli
+    Niccolo Machiavelli
 ----
 Severities should be dealt out all at once, so that their suddenness may give
 less offense; benefits ought to be handed ought drop by drop, so that they may
 be relished the more.
-    iccolo Machiavelli
+    Niccolo Machiavelli
 ----
 We cannot attribute to fortune or virtue that which is achieved without either.
-    iccolo Machiavelli
+    Niccolo Machiavelli
 ----
 War should be the only study of a prince. He should consider peace only as a
 breathing-time, which gives him leisure to contrive, and furnishes as ability
 to execute, military plans.
-    iccolo Machiavelli
+    Niccolo Machiavelli
 ----
 The fact is that a man who wants to act virtuously in every way necessarily
 comes to grief among so many who are not virtuous.
-    iccolo Machiavelli
+    Niccolo Machiavelli
 ----
 A return to first principles in a republic is sometimes caused by the simple
 virtues of one man. His good example has such an influence that the good men
 strive to imitate him, and the wicked are ashamed to lead a life so contrary to
 his example.
-    iccolo Machiavelli
+    Niccolo Machiavelli
 ----
 A prince never lacks legitimate reasons to break his promise
-    iccolo Machiavelli
+    Niccolo Machiavelli
 ----
 It is better to be bold than too circumspect, because fortune is of a sex which
 likes not a tardy wooer and repulses all who are not ardent
-    iccolo Machiavelli
+    Niccolo Machiavelli
 ----
 Men sooner forget the death of their father than the loss of their patrimony.
-    iccolo Machiavelli
+    Niccolo Machiavelli
 ----
 A wise man will see to it that his acts always seem voluntary and not done by
 compulsion, however much he may be compelled by necessity.
-    iccolo Machiavelli
+    Niccolo Machiavelli
 ----
 There is no other way for securing yourself against flatteries except that men
 understand that they do not offend you by telling you the truth; but when
 everybody can tell you the truth, you fail to get respect
-    iccolo Machiavelli
+    Niccolo Machiavelli
 ----
 Men nearly always follow the tracks made by others and proceed in their affairs
 by imitation, even though they cannot entirely keep to the tracks of others or
@@ -11088,24 +11088,24 @@ about it. He should behave like those archers who, if they are skilful, when
 the target seems too distant, know the capabilities of their bow and aim a good
 deal higher than their objective, not in order to shoot so high but so that by
 aiming high they can reach the target.
-    iccolo Machiavelli
+    Niccolo Machiavelli
 ----
 For the great majority of mankind are satisfied with appearance, as though they
 were realities and are often more influenced by the things that seem than by
 those that are
-    iccolo Machiavelli
+    Niccolo Machiavelli
 ----
 According to Jim the sequence of Blob creation is as follows:
 1. Barry Robinson, my boss at DEC, was prone to wandering around muttering
 "blobs, blobs, we gotta have blobs." When I asked what a blob was, he pointed
 out that I was the architect and that was my job.
-    een at http://www.ibphoenix.com/main.nfs?page=ibp_blobs
+    Seen at http://www.ibphoenix.com/main.nfs?page=ibp_blobs
 ----
 According to Jim the sequence of Blob creation is as follows:
 4. The retired bouncer hired to head the DSRI process rules that blobs were in,
 but had to be renamed "segmented strings" to avoid offending Clevelandites (or
 whatever).
-    een at http://www.ibphoenix.com/main.nfs?page=ibp_blobs
+    Seen at http://www.ibphoenix.com/main.nfs?page=ibp_blobs
 ----
 According to Jim the sequence of Blob creation is as follows:
 5. Much later, Terry McKiever, an Apollo marketing gnome, fell in love with the
@@ -11114,28 +11114,28 @@ them "basic large objects." Apollo never private labelled the product, so this
 should be irrelevant. Unfortunately, her ravings got the attention of Informix
 (I think) who announced that they would support "binary large objects" at some
 future time. The damage was done.
-    een at http://www.ibphoenix.com/main.nfs?page=ibp_blobs
+    Seen at http://www.ibphoenix.com/main.nfs?page=ibp_blobs
 ----
 Do not spoil what you have by desiring what you have not; remember that what
 you now have was once among the things you only hoped for.
-    picurus
+    Epicurus
 ----
 Living with integrity means: Not settling for less than what you know you
 deserve in your relationships. Asking for what you want and need from others.
 Speaking your truth, even though it might create conflict or tension. Behaving
 in ways that are in harmony with your personal values. Making choices based on
 what you believe, and not what others believe.
-    arbara De Angelis
+    Barbara De Angelis
 ----
 If ever there is tomorrow when we're not together.. there is something you must
 always remember. you are braver than you believe, stronger than you seem, and
 smarter than you think. but the most important thing is, even if we're apart..
 i'll always be with you.
-    innie the Pooh
+    Winnie the Pooh
 ----
 The folks you help won't remember it and the folks you hurt won't ever forget
 it.
-    ill Clayton
+    Bill Clayton
 ----
 When we're incomplete, we're always searching for somebody to complete us.
 When, after a few years or a few months of a relationship, we find that we're
@@ -11145,113 +11145,112 @@ partner can add sweet dimensions to our lives, we, each of us, are responsible
 for our own fulfillment. Nobody else can provide it for us, and to believe
 otherwise is to delude ourselves dangerously and to program for eventual
 failure every relationship we enter.
-    om Robbins
+    Tom Robbins
 ----
 Put your hand on a hot stove for a minute, and it seems like an hour. Sit with
 a pretty girl for an hour, and it seems like a minute. THAT'S relativity.
-    lbert Einstein
+    Albert Einstein
 ----
 We used to think that if we knew one, we knew two, because one and one are two.
 We are finding that we must learn a great deal more about 'and.'
-    ir Arthur Eddington
+    Sir Arthur Eddington
 ----
 Love me when I least deserve it, because that's when I really need it.
-    wedish Proverb
+    Swedish Proverb
 ----
 As pascal shows, something proven is often better as some hype ;)
-    lorian Klaempfl, seen at
-http://www.mail-archive.com/fpc-other@lists.freepascal.org/msg00209.html
+    Florian Klaempfl, seen at http://www.mail-archive.com/fpc-other@lists.freepascal.org/msg00209.html
 ----
 With risk there may be change; with change there must always be risk.
-    ale Wyllie
+    Dale Wyllie
 ----
 You yourself, as much as anybody in the entire universe, deserve your love and
 affection.
-    uddha
+    Buddha
 ----
 Your task is not to seek for love, but merely to seek and find all the barriers
 within yourself that you have built against it.
-    alal ad-Din Rumi
+    Jalal ad-Din Rumi
 ----
 Trust yourself. You know more than you think you do.
-    enjamin Spock
+    Benjamin Spock
 ----
 Courage consists in the power of self-recovery.
-    alph Waldo Emerson
+    Ralph Waldo Emerson
 ----
 You cannot control what happens to you, but you can control your attitude
 toward what happens to you, and in that, you will be mastering change rather
 than allowing it to master you.
-    rian Tracy
+    Brian Tracy
 ----
 Only the shallow know themselves.
-    scar Wilde
+    Oscar Wilde
 ----
 I don't at all like knowing what people say of me behind my back. It makes me
 far too conceited.
-    scar Wilde
+    Oscar Wilde
 ----
 You never find yourself until you face the truth
-    earl Bailey
+    Pearl Bailey
 ----
 If you think nobody cares if you're alive, try missing a couple of car payments.
-    arl Wilson
+    Earl Wilson
 ----
 You cannot hate other people without hating your self
-    prah Winfrey
+    Oprah Winfrey
 ----
 Write to be understood, speak to be heard, read to grow...
-    awrence Clark Powell
+    Lawrence Clark Powell
 ----
 I went to a bookstore and asked the saleswoman, "Where's the self-help
 section?" She said if she told me, it would defeat the purpose
-    eorge Carlin
+    George Carlin
 ----
 Any fool can criticize, condemn, and complain but it takes character and self
 control to be understanding and forgiving.
-    ale Carnegie
+    Dale Carnegie
 ----
 With self-discipline most anything is possible.
-    heodore Roosevelt
+    Theodore Roosevelt
 ----
 Self-worth comes from one thing -- thinking that you are worthy.
-    ayne Dyer
+    Wayne Dyer
 ----
 All of the significant battles are waged within the self
-    heldon Kopp
+    Sheldon Kopp
 ----
 Good government is no substitute for self-government
-    ahatma Gandhi
+    Mahatma Gandhi
 ----
 I am, indeed, a king, because I know how to rule myself.
-    ietro Aretino
+    Pietro Aretino
 ----
 The surest aid in combating the male's disease of self-contempt is to be loved
 by a clever woman.
-    riedrich Nietzsche
+    Friedrich Nietzsche
 ----
 I am afraid to show you who I really am, because if I show you who I really am,
 you might not like it--and that's all I got.
-    abrina Ward Harrison
+    Sabrina Ward Harrison
 ----
 People often say that this or that person has not yet found himself. But the
 self is not something one finds, it is something one creates.
-    homas S. Szasz
+    Thomas S. Szasz
 ----
 A man should first direct himself in the way he should go. Only then should he
 instruct others.
-    uddha
+    Buddha
 ----
 Self-disciplined begins with the mastery of your thoughts. If you don't control
 what you think, you can't control what you do. Simply, self-discipline enables
 you to think first and act afterward.
-    apoleon Hill
+    Napoleon Hill
 ----
 People love others not for who they are but for how they make them feel
     rwin Federman
 ----
 They cannot take away our self-respect if we do not give it to them.
-    ahatma Gandhi
+    Mahatma Gandhi
 ----
 Be yourself, don't take anyone's shit, and never let them take you alive.
     erard Way
@@ -11260,102 +11259,102 @@ We talk of choosing our friends, but friends are self-elected
     alph Waldo Emerson
 ----
 I have been a selfish being all my life, in practice, though not in principle.
-    ane Austen
+    Jane Austen
 ----
 Which painting in the National Gallery would I save if there was a fire? The
 one nearest the door of course.
-    eorge Bernard Shaw
+    George Bernard Shaw
 ----
 Some cause happiness wherever they go; others whenever they go
-    scar Wilde
+    Oscar Wilde
 ----
 How can a woman be expected to be happy with a man who insists on treating her
 as if she were a perfectly normal human being.
-    scar Wilde
+    Oscar Wilde
 ----
 Not all those who wander are lost.
- .R.R. Tolkien
+    J.R.R. Tolkien
 ----
 There is nothing like looking, if you want to find something. You certainly
 usually find something, if you look, but it is not always quite the something
 you were after.
- .R.R. Tolkien
+    J.R.R. Tolkien
 ----
 You can only come to the morning through the shadows.
- .R.R. Tolkien
+    J.R.R. Tolkien
 ----
 Fair speech may hide a foul heart.
- .R.R. Tolkien
+    J.R.R. Tolkien
 ----
 The Road goes ever on and on down from the door where it began. Now far ahead
 the Road has gone, and I must follow, if I can, pursuing it with eager feet,
 until it joins some larger way where many paths and errands meet. And whither
 then? I cannot say.
- .R.R. Tolkien
+    J.R.R. Tolkien
 ----
 Many that live deserve death. And some that die deserve life. Can you give it
 to them? Then do not be too eager to deal out death in judgement. For even the
 very wise cannot see all ends.
- .R.R. Tolkien
+    J.R.R. Tolkien
 ----
 It is a dangerous business going out your front door.
- .R.R. Tolkien
+    J.R.R. Tolkien
 ----
 It is the job that is never started that takes longest to finish.
- .R.R. Tolkien
+    J.R.R. Tolkien
 ----
 The wise speak only of what they know.
- .R.R. Tolkien
+    J.R.R. Tolkien
 ----
 Courage is found in unlikely places.
- .R.R. Tolkien
+    J.R.R. Tolkien
 ----
 It does not do to leave a live dragon out of your calculations, if you live
 near him.
- .R.R. Tolkien
+    J.R.R. Tolkien
 ----
 I have no help to send, therefore I must go myself.
- .R.R. Tolkien
+    J.R.R. Tolkien
 ----
 A star shone at the hour of our meeting.
- .R.R. Tolkien
+    J.R.R. Tolkien
 ----
 Remember what Bilbo used to say: It's a dangerous business, Frodo, going out
 your door. You step onto the road, and if you don't keep your feet, there's no
 knowing where you might be swept off to.
- .R.R. Tolkien
+    J.R.R. Tolkien
 ----
 There are many powers in the world, for good or for evil. Some are greater than
 I am. Against some I have not yet been measured. But my time is coming.
- .R.R. Tolkien
+    J.R.R. Tolkien
 ----
 All that is gold does not glitter, not all those who wander are lost; the old
 that is strong does not wither, deep roots are not reached by the frost. From
 the ashes a fire shall be woken, a light from the shadows shall spring;
 renenwed shall be blade that was broken, the crownless again shall be king.
- .R.R. Tolkien
+    J.R.R. Tolkien
 ----
 I do not love the bright sword for it's sharpness, nor the arrow for it's
 swiftness, nor the warrior for his glory. I love only that which they defend
- .R.R. Tolkien
+    J.R.R. Tolkien
 ----
 Let him not vow to walk in the dark, who has not seen the darkness fall.
- .R.R. Tolkien
+    J.R.R. Tolkien
 ----
 It needs but one foe to breed a war, and those who have not swords can still
 die upon them
- .R.R. Tolkien
+    J.R.R. Tolkien
 ----
 He who breaks a thing to find out what it is, has left the path of wisdom.
- .R.R. Tolkien
+    J.R.R. Tolkien
 ----
 What do you mean? Do you wish me a good morning, or mean that it is a good
 morning whether I want it or not; or that you feel good on this morning; or
 that it is a morning to be good on?
- .R.R. Tolkien
+    J.R.R. Tolkien
 ----
 I warn you, if you bore me, I shall take my revenge.
- .R.R. Tolkien
+    J.R.R. Tolkien
 ----
 But that's not the way of it with the tales that really mattered, or the ones
 that stay in the mind. Folk seem to have just landed in them, usually - their
@@ -11364,45 +11363,45 @@ like us, of turning back, only they didn't. And if they had, we shouldn't know,
 because they'd have been forgotten. We hear about those as just went on - and
 not all to a good end, mind you; at least not to what folk inside a story and
 not outside it call a good end
- .R.R. Tolkien
+    J.R.R. Tolkien
 ----
 I wish life was not so short, he thought. languages take such a time, and so do
 all the things one wants to know about.
- .R.R. Tolkien
+    J.R.R. Tolkien
 ----
 Some who have read the book, or at any rate have reviewed it, have found it
 boring, absurd, or contemptible; and I have no cause to complain, since I have
 similar opinions of their works, or of the kinds of writing that they evidently
 prefer.
- .R.R. Tolkien
+    J.R.R. Tolkien
 ----
 So comes snow after fire, and even dragons have their ending.
- .R.R. Tolkien
+    J.R.R. Tolkien
 ----
 The wolf that one hears is worse than the orc that one fears.
- .R.R. Tolkien
+    J.R.R. Tolkien
 ----
 What do you fear my lady?
 A cage. To stay behind bars until use and old age accept them and all chance of
 valor has gone beyond beyond recall or desire.
- .R.R. Tolkien
+    J.R.R. Tolkien
 ----
 N-nothing important. That is, I heard a good deal about a ring, and a dark
 lord, and something about the end of the world, but please, Mr. Gandalf, sir,
 don't hurt me. Don't turn me into anything... unnatural.
- .R.R. Tolkien
+    J.R.R. Tolkien
 ----
 If more of us valued food and cheer and song above hoarded gold, it would be a
 merrier world.
- .R.R. Tolkien
+    J.R.R. Tolkien
 ----
 Do not meddle in the affairs of Wizards, for they are subtle and quick to anger.
- .R.R. Tolkien
+    J.R.R. Tolkien
 ----
 Lord Denethor is Boromir's father. To bring him news of his beloved son's death
 would be most unwise. And don't mention Frodo or the ring. And say nothing of
 Aragorn either. In fact, it's best if you don't speak at all, Peregrin Took.
- .R.R. Tolkien
+    J.R.R. Tolkien
 ----
 Aragorn: Hold your ground, hold your ground. Sons of Gondor, of Rohan, my
 brothers. I see in your eyes the same fear that would take the heart of me. A
@@ -11411,19 +11410,19 @@ break all bonds of fellowship, but it is not this day. An hour of wolves and
 shattered shields, when the age of men comes crashing down, but it is not this
 day. This day we fight! By all that you hold dear on this good Earth, I bid you
 *stand, Men of the West!*
- .R.R. Tolkien
+    J.R.R. Tolkien
 ----
 Fealty with love, Valor with honor, oathbreaking with vengeance.
- .R.R. Tolkien
+    J.R.R. Tolkien
 ----
 One Ring to rule them all, One Ring to find them
 One Ring to bring them all and in the darkness bind them
- .R.R. Tolkien
+    J.R.R. Tolkien
 ----
 That is Shadowfax. He is cheif of the Maeras, lords of all horses, and not even
 Theoden, King of Rohan, has ever looked on a better. Does he not shine like
 silver, and run as smoothly as a swift stream?
- .R.R. Tolkien
+    J.R.R. Tolkien
 ----
 Everything to me that is the most important, and the most moving in the book,
 they've gotten on the stage.
@@ -11431,34 +11430,34 @@ they've gotten on the stage.
 ----
 It's wisdom to recognize necessity, when all other courses have been weighed,
 though as folly it may appear to those who cling to false hope.
- .R.R. Tolkien
+    J.R.R. Tolkien
 ----
 It must often be so, Sam, when things are in danger: someone has to give them
 up, lose them, so that others may keep them.
- .R.R. Tolkien
+    J.R.R. Tolkien
 ----
 The world is full enough of hurts and mischance without wars to multiply them.
- .R.R. Tolkien
+    J.R.R. Tolkien
 ----
 hope is not victory
- .R.R. Tolkien
+    J.R.R. Tolkien
 ----
 The wide world is all about you; you can fence yourselves in, but you cannot
 forever fence it out.
- .R.R. Tolkien
+    J.R.R. Tolkien
 ----
 Still round the corner there may wait, A new road or a secret gate.
- .R.R. Tolkien
+    J.R.R. Tolkien
 ----
 He should not vow to walk in the dark, who has not seen the nightfall.
- .R.R. Tolkien
+    J.R.R. Tolkien
 ----
 It's like things are in the world. Hopes fail. An end comes. We have only a
 little time to wait now.
- .R.R. Tolkien
+    J.R.R. Tolkien
 ----
 She should not die, so young and beautiful. At least, she should not die alone.
- .R.R. Tolkien
+    J.R.R. Tolkien
 ----
 But that's not the way of it with the tales that really mattered, or the ones
 that stay in the mind. Folk seem to have just landed in them, usually - their
@@ -11467,334 +11466,334 @@ like us, of turning back, only they didn't. And if they had, we shouldn't know,
 because they'd have been forgotten. We hear about those as just went on - and
 not all to a good end, mind you; at least not to what folk inside a story and
 not outside it call a good end
- .R.R. Tolkien
+    J.R.R. Tolkien
 ----
 Then suddenly out of the gloom came a sharp hiss. 'What has it got in its
 pocketses?'
- .R.R. Tolkien
+    J.R.R. Tolkien
 ----
 And it is not always good to be healed in body. Nor is it always evil to die in
 battle, even in bitter pain. Were I permitted, in this dark hour I would choose
 the latter.
- .R.R. Tolkien
+    J.R.R. Tolkien
 ----
 A box without hinges, key, or lid, yet golden treasure inside is hid.
- .R.R. Tolkien
+    J.R.R. Tolkien
 ----
 Now is the hour come, Riders of the Mark, sons of Eorl! Foes and fires are
 before you, and your homes far behind. Yet, though you fight upon an alien
 field, the glory that you reap there shall be your own forever. Oaths ye have
 taken: now fulfil them all, to lord and land and league of friendship!
- .R.R. Tolkien
+    J.R.R. Tolkien
 ----
 I am told that I talk in shorthand and then smudge it.
- .R.R. Tolkien
+    J.R.R. Tolkien
 ----
 I think we dream so we don't have to be apart so long. If we're in each other's
 dreams, we can be together all the time.
-    alvin & Hobbes
+    Calvin & Hobbes
 ----
 We're so busy watching out for what's just ahead of us that we don't take time
 to enjoy where we are.
-    alvin & Hobbes
+    Calvin & Hobbes
 ----
 Sometimes I think the surest sign that intelligent life exists elsewhere in the
 universe is that none of it has tried to contact us.
-    alvin & Hobbes
+    Calvin & Hobbes
 ----
 Life's disappointments are harder to take when you don't know any swear words.
-    alvin & Hobbes
+    Calvin & Hobbes
 ----
 Who was the first guy that look at a cow and said," I think that I'll drink
 whatever comes out of those things when I squeeze them?
-    alvin & Hobbes
+    Calvin & Hobbes
 ----
 People think it must be fun to be a super genius, but they don't realize how
 hard it is to put up with all the idiots in the world.
-    alvin & Hobbes
+    Calvin & Hobbes
 ----
 Well, remember what you said, because in a day or two, I'll have a witty and
 blistering retort! You'll be devastated THEN!
-    alvin & Hobbes
+    Calvin & Hobbes
 ----
 History is the fiction we invent to persuade ourselves that events are knowable
 and that life has order and direction.
-    alvin & Hobbes
+    Calvin & Hobbes
 ----
 I can't tell if that's funny or really scary.
-    alvin & Hobbes
+    Calvin & Hobbes
 ----
 Life is like topography, Hobbes. There are summits of happiness and success,
 flat stretches of boring routine, and valleys of frustration and failure.
-    alvin & Hobbes
+    Calvin & Hobbes
 ----
 You can't just turn on creativity like a faucet. You have to be in the right
 mood.
 What mood is that?
 Last-minute panic.
-    alvin & Hobbes
+    Calvin & Hobbes
 ----
 Careful. We don't want to learn from this.
-    alvin & Hobbes
+    Calvin & Hobbes
 ----
 County library? Reference desk, please. Hello? Yes, I need a word definition.
 Well, that's the problem. I don't know how to spell it and I'm not allowed to
 say it. Could you just rattle off all the swear words you know and I'll stop
 you when...Hello?
-    alvin & Hobbes
+    Calvin & Hobbes
 ----
 What fun is it being cool if you can't wear a sombrero?
-    alvin & Hobbes
+    Calvin & Hobbes
 ----
 Some days even my lucky rocketship underpants won't help.
-    alvin & Hobbes
+    Calvin & Hobbes
 ----
 Girls are like slugs. They serve some purpose but it's hard to imagine what.
-    alvin & Hobbes
+    Calvin & Hobbes
 ----
 "I've been thinking Hobbes --"
 "On a weekend?"
 "Well, it wasn't on purpose..."
-    alvin & Hobbes
+    Calvin & Hobbes
 ----
 Dad, how do soldiers killing each other solve the world's problems?
-    alvin & Hobbes
+    Calvin & Hobbes
 ----
 Do you think there is a God? ... Well, somebody's out to get me.
-    alvin & Hobbes
+    Calvin & Hobbes
 ----
 Don't walk away! I'm trying to apologize you dumb noodleloaf!
-    alvin & Hobbes
+    Calvin & Hobbes
 ----
 Talking with you is sort of the conversational equivalent of an out of body
 experience.
-    alvin & Hobbes
+    Calvin & Hobbes
 ----
 I wonder if I can grow fangs when my baby teeth fall out.
-    alvin & Hobbes
+    Calvin & Hobbes
 ----
 Unfortunately for my report, mom caught me and I didn't get to see how it ended.
-    alvin & Hobbes
+    Calvin & Hobbes
 ----
 Maybe then I can finish my book.
-    alvin & Hobbes
+    Calvin & Hobbes
 ----
 Success and failure are both difficult to endure. Along with success come
 drugs, divorce, fornication, bullying, travel, meditation, medication,
 depression, neurosis and suicide. With failure comes failure.
-    oseph Heller
+    JJoseph Heller
 ----
 I had examined myself pretty thoroughly and discovered that I was unfit for
 military service.
-    oseph Heller
+    JJoseph Heller
 ----
 Every writer I know has trouble writing.
-    oseph Heller
+    JJoseph Heller
 ----
 Procastination is the thief of time.
-    oseph Heller
+    JJoseph Heller
 ----
 I want to keep my dreams, even bad ones, because without them, I might have
 nothing all night long.
-    oseph Heller
+    JJoseph Heller
 ----
 He had decided to live forever or die in the attempt.
-    oseph Heller
+    JJoseph Heller
 ----
 The enemy is anybody who's going to get you killed, no matter which side he's
 on.
-    oseph Heller
+    JJoseph Heller
 ----
 When I read something saying I've not done anything as good as "Catch-22" I'm
 tempted to reply, "Who has?"
-    oseph Heller
+    Joseph Heller
 ----
 There was only one catch and that was Catch-22, which specified that a concern
 for one's own safety in the face of dangers that were real and immediate was
 the process of a rational mind.
-    oseph Heller
+    Joseph Heller
 ----
 When I grow up I want to be a little boy.
-    oseph Heller
+    Joseph Heller
 ----
 Some people are born mediocre, some people achieve mediocrity, and some people
 have mediocrity thrust upon them.
-    oseph Heller
+    Joseph Heller
 ----
 He knew everything about literature except how to enjoy it.
-    oseph Heller
+    Joseph Heller
 ----
 He was a self-made man who owed his lack of success to nobody.
-    oseph Heller
+    Joseph Heller
 ----
 Frankly, I'd like to see the government get out of war altogether and leave the
 whole field to private industry.
-    oseph Heller
+    Joseph Heller
 ----
 Destiny is a good thing to accept when it's going your way. When it isn't,
 don't call it destiny; call it injustice, treachery, or simple bad luck.
-    oseph Heller
+    Joseph Heller
 ----
 I think in every country that there is at least one executive who is scared of
 going crazy.
-    oseph Heller
+    Joseph Heller
 ----
 But that was war. Just about all he could find in its favor was that it paid
 well and liberated children from the pernicious influence of their parents.
-    oseph Heller
+    Joseph Heller
 ----
 We do have a zeal for laughter in most situations, give or take a dentist.
-    oseph Heller
+    Joseph Heller
 ----
 The Lord gave us farmers two strong hands so we could grab as much as we could
 with both of them
-    oseph Heller
+    Joseph Heller
 ----
 Lots of people who complained about us receiving the MBE received theirs for
 heroism in the war - for killing people. We received ours for entertaining
 other people. I'd say we deserve ours more.
-    oseph Heller
+    Joseph Heller
 ----
 Rise above principal and do what's right.
-    oseph Heller
+    Joseph Heller
 ----
 Hungry Joe collected lists of fatal diseases and arranged them in alphabetical
 order so that he could put his finger without delay on any one he wanted to
 worry about.
-    oseph Heller
+    Joseph Heller
 ----
 Peace on earth would mean the end of civilization as we know it.
-    oseph Heller
+    Joseph Heller
 ----
 My drawings have been described as pre-intentionalist, meaning that they were
 finished before the ideas for them had occurred to me. I shall not argue the
 point.
-    oseph Heller
+    Joseph Heller
 ----
 I don't believe in miracles because it's been a long time since we've had any.
-    oseph Heller
+    Joseph Heller
 ----
 [(CNN) --] Everyone in my book accuses everyone else of being crazy, ...
 Frankly, I think the whole society is nuts -- and the question is: What does a
 sane man do in an insane society?
-    oseph Heller
+    Joseph Heller
 ----
 [Catch22] specified that a concern for one's safety ... was the process of a
 rational mind. Orr was crazy and could be grounded. All he had to do was ask,
 and as soon as he did, he would no longer be crazy and would have to fly more
 missions.
-    oseph Heller
+    Joseph Heller
 ----
 A large part of the public sentiment was my own, ... They saw an absurd
 quality, a mendacious quality in many of our political leaders and business
 leaders.
-    oseph Heller
+    Joseph Heller
 ----
 Programming is like sex: one mistake and you have to support it for the rest of
 your life.
-    ichael Sinz
+    Michael Sinz
 ----
 It is practically impossible to teach good programming to students that have
 had a prior exposure to BASIC: as potential programmers they are mentally
 mutilated beyond hope of regeneration.
-    dsger Dijkstra
+    Edsger Dijkstra
 ----
 A crash is when your competitor's program dies. When your program dies, it is
 an 'idiosyncrasy'.
-    uy Kawasaki
+    Guy Kawasaki
 ----
 APL is a mistake, carried through to perfection. It is the language of the
 future for the programming techniques of the past: it creates a new generation
 of coding bums.
-    dsger Dijkstra
+    Edsger Dijkstra
 ----
 Crash programs fail because they are based on theory that, with nine women
 pregnant, you can get a baby in a month.
-    erner von Braun
+    Werner von Braun
 ----
 Don't blame me for the fact that competent programming, as I view it as an
 intellectual possibility, will be too difficult for 'the average programmer',
 you must not fall into the trap of rejecting a surgical technique because it is
 beyond the capabilities of the barber in his shop around the corner.
-    dsger Dijkstra
+    Edsger Dijkstra
 ----
 Measuring programming progress by lines of code is like measuring aircraft
 building progress by weight.
-    ill Gates
+    Bill Gates
 ----
 Programming graphics in X is like finding the square root of PI using Roman
 numerals
-    enry Spencer
+    Henry Spencer
 ----
 Copying all or parts of a program is as natural to a programmer as breathing,
 and as productive. It ought to be as free.
-    ichard Stallman
+    Richard Stallman
 ----
 I've always said my career is somewhere between children's programming and
 hard-core porn.
-    ilbert Gottfried
+    Gilbert Gottfried
 ----
 Who can afford to do professional work for nothing? What hobbyist can put 3-man
 years into programming, finding all bugs, documenting his product and
 distribute for free? The fact is, no one besides us has invested a lot of money
 in hobby software.
-    ill Gates
+    Bill Gates
 ----
 Object-oriented programming is an exceptionally bad idea which could only have
 originated in California.
-    dsger Dijkstra
+    Edsger Dijkstra
 ----
 Low-level programming is good for the programmer's soul.
-    ohn Carmack
+    John Carmack
 ----
 Programming is not a zero-sum game. Teaching something to a fellow programmer
 doesn't take it away from you. I'm happy to share what I can, because I'm in it
 for the love of programming.
-    ohn Carmack
+    John Carmack
 ----
 They don't watch programs anymore; they watch pieces of programs.
-    arrie Heeter
+    Barrie Heeter
 ----
 Computer science is no more about computers than astronomy is about telescopes.
-    dsger Dijkstra
+    Edsger Dijkstra
 ----
 Program testing can be used to show the presence of bugs, but never to show
 their absence!
-    dsger Dijkstra
+    Edsger Dijkstra
 ----
 The question of whether a computer can think is no more interesting than the
 question of whether a submarine can swim.
-    dsger Dijkstra
+    Edsger Dijkstra
 ----
 The use of COBOL cripples the mind; its teaching should, therefore, be regarded
 as a criminal offense.
-    dsger Dijkstra
+    Edsger Dijkstra
 ----
 Progress is possible only if we train ourselves to think about programs without
 thinking of them as pieces of executable code.
-    dsger Dijkstra
+    Edsger Dijkstra
 ----
 If in physics there's something you don't understand, you can always hide
 behind the uncharted depths of nature. You can always blame God. You didn't
 make it so complex yourself. But if your program doesn't work, there is no one
 to hide behind. You cannot hide behind an obstinate nature. If it doesn't work,
 you've messed up.
-    dsger Dijkstra
+    Edsger Dijkstra
 ----
 Don't blame me for the fact that competent programming, as I view it as an
 intellectual possibility, will be too difficult for 'the average programmer',
 you must not fall into the trap of rejecting a surgical technique because it is
 beyond the capabilities of the barber in his shop around the corner.
-    dsger Dijkstra
+    Edsger Dijkstra
 ----
 APL is a mistake, carried through to perfection. It is the language of the
 future for the programming techniques of the past: it creates a new generation
 of coding bums.
-    dsger Dijkstra
+    Edsger Dijkstra
 ----
 The effort of using machines to mimic the human mind has always struck me as
 rather silly. I would rather use them to mimic something better.
-    dsger Dijkstra
+    Edsger Dijkstra
 ----
 Often people, especially computer engineers, focus on the machines. They think,
 "By doing this, the machine will run faster. By doing this, the machine will
@@ -11802,38 +11801,38 @@ run more effectively. By doing this, the machine will something something
 something." They are focusing on machines. But in fact we need to focus on
 humans, on how humans care about doing programming or operating the application
 of the machines. We are the masters. They are the slaves.
-    ukihiro Matsumoto, creator of Ruby
+    Yukihiro Matsumoto, creator of Ruby
 ----
 Focused, hard work is the real key to success. Keep your eyes on the goal, and
 just keep taking the next step towards completing it. If you aren't sure which
 way to do something, do it both ways and see which works better.
-    ohn Carmack
+    John Carmack
 ----
 Focus is a matter of deciding what things you're not going to do.
-    ohn Carmack
+    John Carmack
 ----
 It's nice to have a game that sells a million copies.
-    ohn Carmack
+    John Carmack
 ----
 Think of what we, and others, are doing as building the largest roller coaster
 in the world. Rocket science is mythologized out of whack with its difficulty.
 Nine out of 10 people will fail, but one of us will eventually get through.
-    ohn Carmack
+    John Carmack
 ----
 Note to self: Pasty-skinned programmers ought not stand in the Mojave desert
 for multiple hours.
-    ohn Carmack
+    John Carmack
 ----
 I'd rather have a search engine or a compiler on a deserted island than a game.
-    ohn Carmack
+    John Carmack
 ----
 The speed of light sucks.
-    ohn Carmack
+    John Carmack
 ----
 Everybody's saturated with the marketing hype of next-generation consoles. They
 are wonderful, but the truth is that they are as powerful as a high end PC is
 right now.
-    ohn Carmack
+    John Carmack
 ----
 Sony sort of takes this position where, [they say] 'Okay, it's going to be
 difficult, maybe its going to suck to do this, but the good game developers are
@@ -11841,142 +11840,142 @@ going to suck it up and make it work.' There's some truth to that, ... There
 will be the developers that go ahead and have a miserable time and do get good
 performance out of some of these multi-core approaches. And Cell is worse than
 others in some respects, here.
-    ohn Carmack
+    John Carmack
 ----
 Every program has (at least) two purposes: The one for which it was written and
 another for which it wasn't.
-    lan Perlis
+    Alan Perlis
 ----
 The string is a stark data structure and everywhere it is passed there is much
 duplication of process. It is a perfect vehicle for hiding information.
-    lan Perlis
+    Alan Perlis
 ----
 Don't have good ideas if you aren't willing to be responsible for them.
-    lan Perlis
+    Alan Perlis
 ----
 Computer Science is embarrassed by the computer.
-    lan Perlis
+    Alan Perlis
 ----
 It goes against the grain of modern education to teach students to program.
 What fun is there to making plans, acquiring discipline, organizing thoughts,
 devoting attention to detail, and learning to be self critical.
-    lan Perlis
+    Alan Perlis
 ----
 If you have a procedure with 10 parameters, you probably missed some.
-    lan Perlis
+    Alan Perlis
 ----
 Fools ignore complexity. Pragmatists suffer it. Some can avoid it. Geniuses
 remove it.
-    lan Perlis
+    Alan Perlis
 ----
 Symmetry is a complexity-reducing concept (co-routines include subroutines);
 seek it everywhere.
-    lan Perlis
+    Alan Perlis
 ----
 We toast the Lisp programmer who pens his thoughts within nests of parentheses.
-    lan Perlis
+    Alan Perlis
 ----
 I think it is inevitable that people program poorly. Training will not
 substantially help matters. We have to learn to live with it.
-    lan Perlis
+    Alan Perlis
 ----
 You can measure a programmer's perspective by noting his attitude on the
 continuing vitality of FORTRAN.
-    lan Perlis
+    Alan Perlis
 ----
 In a 5 year period we get one superb programming language - only we can't
 control when the 5 year period will begin.
-    lan Perlis
+    Alan Perlis
 ----
 A picture is worth 10K words - but only those to describe the picture. Hardly
 any sets of 10K words can be adequately described with pictures.
-    lan Perlis
+    Alan Perlis
 ----
 There are two ways to write error-free programs; only the third one works.
-    lan Perlis
+    Alan Perlis
 ----
 The computing field is always in need of new cliches.
-    lan Perlis
+    Alan Perlis
 ----
 If a listener nods his head when you're explaining your program, wake him up.
-    lan Perlis
+    Alan Perlis
 ----
 It is easier to write an incorrect program than understand a correct one.
-    lan Perlis
+    Alan Perlis
 ----
 A programming language is low level when its programs require attention to the
 irrelevant.
-    lan Perlis
+    Alan Perlis
 ----
 When someone says "I want a programming language in which I need only say what
 I wish done," give him a lollipop.
-    lan Perlis
+    Alan Perlis
 ----
 Lisp programmers know the value of everything and the cost of nothing.
-    lan Perlis, Yale University
+    Alan Perlis, Yale University
 ----
 In computing, turning the obvious into the useful is a living definition of the
 word "frustration".
-    lan Perlis
+    Alan Perlis
 ----
 It is easier to change the specification to fit the program than vice versa.
-    lan Perlis
+    Alan Perlis
 ----
 If your computer speaks English, it was probably made in Japan.
-    lan Perlis
+    Alan Perlis
 ----
 In software systems it is often the early bird that makes the worm.
-    lan Perlis
+    Alan Perlis
 ----
 A year spent in artificial intelligence is enough to make one believe in God.
-    lan Perlis
+    Alan Perlis
 ----
 Is it possible that software is not like anything else, that it is meant to be
 discarded: that the whole point is to always see it as a soap bubble?
-    lan Perlis
+    Alan Perlis
 ----
 Simplicity does not precede complexity, but follows it.
-    lan Perlis
+    Alan Perlis
 ----
 The best book on programming for the layman is "Alice in Wonderland"; but
 that's because it's the best book on anything for the layman.
-    lan Perlis
+    Alan Perlis
 ----
 Some programming languages manage to absorb change, but withstand progress.
-    lan Perlis
+    Alan Perlis
 ----
 Syntactic sugar causes cancer of the semicolon.
-    lan Perlis
+    Alan Perlis
 ----
 Friends show their love - in times of trouble, not in happiness
-    uripides
+    Euripides
 ----
 No one is in control of your happiness but you; therefore, you have the power
 to change anything about yourself or your life that you want to change.
-    arbara De Angelis
+    Barbara De Angelis
 ----
 Being deeply loved by someone gives you strength, while loving someone deeply
 gives you courage.
-    ao Tzu
+    Lao Tzu
 ----
 Don't marry the person you think you can live with; marry only the individual
 you think you can't live without.
-    r. James C. Dobson
+    Sr. James C. Dobson
 ----
 The one thing children wear out faster than shoes is parents.
-    ohn J. Plomp
+    John J. Plomp
 ----
 The more anger towards the past you carry in your heart, the less capable you
 are of loving in the present.
-    arbara De Angelis
+    Barbara De Angelis
 ----
 People do not seem to realize that their opinion of the world is also a
 confession of character.
-    alph Waldo Emerson
+    Ralph Waldo Emerson
 ----
 Any fool can criticize, condemn, and complain but it takes character and self
 control to be understanding and forgiving.
-    ale Carnegie
+    Dale Carnegie
 ----
 Success builds character, failure reveals it
     ave Checkett
