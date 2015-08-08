@@ -10176,8 +10176,8 @@ I had supposed until that time that it was quite common for parents to love
 their children, but the war persuaded me that it is a rare exception. I had
 supposed that most people liked money better than almost anything else, but I
 discovered that they liked destruction even better. I had supposed that
-intellectuals frequently loved truth, but I found here again that not ten per
-cent of them prefer truth to popularity.
+intellectuals frequently loved truth, but I found here again that not ten percent
+of them prefer truth to popularity.
     Bertrand Russell
 ----
 Science can teach us, and I think our own hearts can teach us, no longer to
@@ -12703,9 +12703,6 @@ I'm a great believer in luck, and I find the harder I work the more I have of
 it.
     Thomas Jefferson
 ----
-To see what is right and not to do it is cowardice.
-    Confucius
-----
 The race is not always to the swift, but to those who keep on running.
 ----
 Dare to be Great
@@ -12951,10 +12948,10 @@ I know of no reason why Gunpowder Treason
 Should ever be forgot.
     Traditional rhyme for Guy Fawkes Night.
 ----
-I don’t think that combat has ever been written about truthfully; it has
-always been described in terms of bravery and cowardice. I won’t even accept
+I don't think that combat has ever been written about truthfully; it has
+always been described in terms of bravery and cowardice. I won't even accept
 these words as terms of human reference any more. And anyway, hell, they
-don’t even apply to what, in actual fact, modern warfare has become.
+don't even apply to what, in actual fact, modern warfare has become.
     James Jones
 ----
 Do not wait for the Last Judgment. It takes place every day.
@@ -13844,7 +13841,7 @@ bottle paddle battle.
 Only you can control your future.
     Dr. Seuss
 ----
-You’ll miss the best things if you keep your eyes shut.
+You'll miss the best things if you keep your eyes shut.
     Dr. Seuss, I Can Read With My Eyes Shut!
 ----
 They say I'm old-fashioned, and live in the past, but sometimes I think
@@ -13859,7 +13856,7 @@ I'm afraid that sometimes you'll play lonely games too. Games you can't win
 'cause you'll play against you.
     Dr. Seuss
 ----
-I’m glad we had the times together just to laugh and sing a song, seems like
+I'm glad we had the times together just to laugh and sing a song, seems like
 we just got started and then before you know it, the times we had together were
 gone.
     Dr. Seuss
@@ -13991,10 +13988,10 @@ I'm not anti-social; I'm just not user friendly
 ----
 I would love to change the world, but they won't give me the source code
 ----
-Passwords are like underwear: You shouldn’t leave them out where people can
+Passwords are like underwear: You shouldn't leave them out where people can
 see them.
 You should change them regularly.
-And you shouldn’t loan them out to strangers.
+And you shouldn't loan them out to strangers.
 ----
 Concept: On the keyboard of life, always keep one finger on the escape button
 ----
@@ -14425,7 +14422,7 @@ Always remember that you are unique. Just like everyone else
 ----
 Booze is the answer. I don't remember the question.
 ----
-I’m not in this world to live up to your expectations and you’re not in
+I'm not in this world to live up to your expectations and you're not in
 this world to live up to mine.
     Bruce Lee
 ----
@@ -14989,10 +14986,10 @@ make some copies?
 The result was that once again nearly all (93 percent) agreed, even though no
 real reason,
 no new information, was added to justify their compliance. Just as the
-“cheep-cheep”
+"cheep-cheep”
 sound of turkey chicks triggered an automatic mothering response from maternal
 turkeys—even when it emanated from a stuffed polecat—so, too, did the word
-“because” trigger an automatic compliance response
+"because” trigger an automatic compliance response
     Robert B. Cialdini
 ----
 Embarrassment is a villain to be crushed.
@@ -15006,7 +15003,7 @@ were using a standard principle—a stereotype—to guide their buying:
 The automatic, fixed-action patterns of these animals work very well the great
 majority of the time. For example, because only healthy, normal turkey chicks
 make the peculiar sound of baby turkeys, it makes sense for mother turkeys to
-respond maternally to that single “cheep-cheep” noise.
+respond maternally to that single "cheep-cheep” noise.
     Robert B. Cialdini
 ----
 A well-known principle of human behavior says that when we ask someone to do us
@@ -15038,7 +15035,7 @@ A man's gotta make at least one bet a day, else he could be walking around lucky
 and never know it
     Jim Jones
 ----
-Those who don’t give a fuck change the world. The rest do not
+Those who don't give a fuck change the world. The rest do not
 ----
 Even a happy life cannot be without a measure of darkness, and the word happy
 would lose its meaning if it were not balanced by sadness. It is far better take
@@ -15454,7 +15451,7 @@ seeks punishment and leads to pain.
     Louise L. Hay, The Golden Louise L. Hay Collection
 ----
 Well, I believe you created those experiences over and over because they
-mirrored something you believed about yourself. It doesn’t really matter how
+mirrored something you believed about yourself. It doesn't really matter how
 long we have had a problem, or how big it is, or how life-threatening it is. The
 Point of Power Is Always in the Present Moment
     Louise L. Hay, You Can Heal Your Life
@@ -15463,9 +15460,9 @@ The thoughts we choose to think are the tools we use to paint the canvas of our
 lives
     Louise L. Hay
 ----
-No matter where you are in life, no matter what you’ve contributed to
+No matter where you are in life, no matter what you've contributed to
 creating,
-no matter what’s happening, you are always doing the best you can with the
+no matter what's happening, you are always doing the best you can with the
 understanding and awareness and knowledge that you have
     Louise L. Hay
 ----
@@ -15481,7 +15478,7 @@ We want to know what is going on inside us, so we can know what to let go.
 Instead of hiding our pain, we can release it totally.
     Louise L. Hay
 ----
-Chronic patterns of self-hate, guilt, and self-criticism raise the body’s
+Chronic patterns of self-hate, guilt, and self-criticism raise the body's
 stress
 levels and weaken the immune system
     Louise L. Hay
@@ -15498,7 +15495,7 @@ When we forgive and let go, not only does a huge weight drop off your shoulders,
 but the doorway to your own self-love opens
     Louise L. Hay
 ----
-If you can’t get close to other people, it is because you don’t know how to
+If you can't get close to other people, it is because you don't know how to
 be
 close to your own inner child. The child in you is scared and hurting. Be there
 for your child
@@ -16663,7 +16660,7 @@ recipe. It will not always get you to the top, but should get you pretty near.
     Margaret Thatcher
 ----
 The people who get on in this world are the people who get up and look for the
-circumstances they want, and, if they can’t find them, make them.
+circumstances they want, and, if they can't find them, make them.
     George Bernard Shaw
 ----
 Both liberty and among the primary goals pursued by human beings throughout many
@@ -16672,6 +16669,244 @@ the powerful, the gifted, is not compatible with the rights to a decent
 existence of the weak and the less gifted. equality are.
     Isaiah Berlin, The Crooked Timber of Humanity: Chapters in the History of Ideas
 ----
-
-
+Nothing is impossible, the word itself says "I'm possible"!
+    Audrey Hepburn
+----
+I've learned that people will forget what you said, people will forget what you
+did, but people will never forget how you made them feel.
+    Maya Angelou
+----
+Perfection is not attainable, but if we chase perfection we can catch
+excellence.
+    Vince Lombardi
+----
+Life is 10% what happens to me and 90% of how I react to it.
+    Charles Swindoll
+----
+If you look at what you have in life, you'll always have more. If you look at
+what you don't have in life, you'll never have enough.
+    Oprah Winfrey
+----
+Remember no one can make you feel inferior without your consent.
+    Eleanor Roosevelt
+----
+I can't change the direction of the wind, but I can adjust my sails to always
+reach my destination.
+    Jimmy Dean
+----
+I can accept failure. Everyone fails at something. But I cannot accept not
+trying.
+    Michael Jordan
+----
+Be patient with yourself. Self-growth is tender, it's holy ground. There's no
+greater investment.
+    Stephen Covey
+----
+In every success story, you will find someone who has made a courageous
+decision.
+    Peter F. Drucker
+----
+We must train from the inside out. Using our strengths to attack and nullify any
+weaknesses. It's not about denying a weakness may exist but about denying its
+right to persist.
+    Vince McConnell
+----
+All of the great leaders have had one characteristic in common: it was the
+willingness to confront unequivocally the major anxiety of their people in their
+time. This, and not much else, is the essence of leadership.
+    John Kenneth Galbraith
+----
+My best advice to entrepreneurs is this: Forget about making mistakes, just do
+it.
+    Ajaero Tony Martins
+----
+Achievement seems to be connected with action. Successful men and women keep
+moving. They make mistakes but they don't quit.
+    Conrad Hilton
+----
+Ambition is the steam that drives men forward on the road to success. Only the
+engine under full steam can make the grade.
+    Maxi Foreman
+----
+Continuous learning is the minimum requirement for success in any field.
+    Dennis Waitley
+----
+Everyone who achieves success in a great venture solved each problem as they
+came to it. They helped themselves and they were helped through powers known and
+unknown to them at the time they set out on their voyage. They kept going
+regardless of the obstacles they met.
+    W. Clement Stone
+----
+Experience taught me a few things. One is to listen to your gut no matter how
+good something sounds on paper. The second is that you are generally better off
+sticking with what you know and the third is that sometimes, your best
+investments are the ones you don't make.
+    Donald Trump
+----
+Failure isn't failure unless you don't learn from it.
+    Dr. Ronald Niednagel
+----
+Enthusiasm is the sparkle in your eyes, the swing in your gait, the grip of your
+hand and the irresistible surge of will and energy to execute your ideas.
+    Henry Ford
+----
+Desire is the key to motivation, but it's determination and commitment to an
+unrelenting pursuit of your goal -- a commitment to excellence -- that will
+enable you to attain the success you seek.
+    Mario Andretti
+----
+The secret of joy in work is contained in one word: excellence. To know how to
+do something well is to enjoy it.
+    Pearl Buck
+----
+If you hear a voice within you saying 'you are not a painter' then by all means
+paint and that voice will be silenced.
+    Vincent Van Gogh
+----
+You are to set your own value, communicate that value to the world, and then not
+settle for less. Sound daunting? That's just because it takes you out of your
+comfort zone. You have got to stop being an obstacle on your own path to wealth
+and security and happiness. You must understand that valuing yourself is well
+within your control.
+    Suze Orman
+----
+The greatest discovery of my generation is that people can alter their lives by
+altering their attitudes.
+    William James
+----
+Failure is just a resting place. It is an opportunity to begin again more
+intelligently.
+    Henry Ford
+----
+The entrepreneur is essentially a visualizer and actualizer. He can visualize
+something, and when he visualizes it he sees exactly how to make it happen.
+    Robert L. Schwartz
+----
+Believe you can and you're halfway there.
+    Theodore Roosevelt
+----
+To handle yourself, use your head; to handle others, use your heart.
+    Eleanor Roosevelt
+----
+Too many of us are not living our dreams because we are living our fears.
+    Les Brown
+----
+Whatever the mind of man can conceive and believe, it can achieve.
+    Napoleon Hill
+----
+Twenty years from now you will be more disappointed by the things that you
+didn't do than by the ones you did do, so throw off the bowlines, sail away from
+safe harbor, catch the trade winds in your sails. Explore, Dream, Discover.
+    Mark Twain
+----
+I've missed more than 9000 shots in my career. I've lost almost 300 games. 26
+times I've been trusted to take the game winning shot and missed. I've failed
+over and over and over again in my life. And that is why I succeed.
+    Michael Jordan
+----
+Strive not to be a success, but rather to be of value.
+    Albert Einstein
+----
+I am not a product of my circumstances. I am a product of my decisions.
+    Stephen Covey
+----
+When everything seems to be going against you, remember that the airplane takes
+off against the wind, not with it.
+    Henry Ford
+----
+The most common way people give up their power is by thinking they don't have
+any.
+    Alice Walker
+----
+The most difficult thing is the decision to act, the rest is merely tenacity.
+    Amelia Earhart
+----
+It is during our darkest moments that we must focus to see the light.
+    Aristotle Onassis
+----
+Don't judge each day by the harvest you reap but by the seeds that you plant.
+    Robert Louis Stevenson
+----
+The only way to do great work is to love what you do.
+    Steve Jobs
+----
+Change your thoughts and you change your world.
+    Norman Vincent Peale
+----
+The question isn't who is going to let me; it's who is going to stop me.
+    Ayn Rand
+----
+Remember that not getting what you want is sometimes a wonderful stroke of luck.
+    Dalai Lama
+----
+You can't use up creativity. The more you use, the more you have.
+    Maya Angelou
+----
+I have learned over the years that when one's mind is made up, this diminishes
+fear.
+    Rosa Parks
+----
+I would rather die of passion than of boredom.
+    Vincent van Gogh
+----
+A truly rich man is one whose children run into his arms when his hands are
+empty.
+----
+What'is money? A man is a success if he gets up in the morning and goes to bed at
+night and in between does what he wants to do.
+    Bob Dylan
+----
+I have been impressed with the urgency of doing. Knowing is not enough; we must
+apply. Being willing is not enough; we must do.
+    Leonardo da Vinci
+----
+If you want to lift yourself up, lift up someone else.
+    Booker T. Washington
+----
+Limitations live only in our minds. But if we use our imaginations, our
+possibilities become limitless.
+    Jamie Paolinetti
+----
+If you're offered a seat on a rocket ship, don't ask what seat! Just get on.
+    Sheryl Sandberg
+----
+Certain things catch your eye, but pursue only those that capture the heart.
+    Ancient Indian Proverb
+----
+Everything has beauty, but not everyone can see.
+    Confucius
+----
+How wonderful it is that nobody need wait a single moment before starting to
+improve the world.
+    Anne Frank
+----
+When I was 5 years old, my mother always told me that happiness was the key to
+life. When I went to school, they asked me what I wanted to be when I grew up. I
+wrote down "happy”. They told me I didn't understand the assignment, and I told
+them they didn't understand life.
+    John Lennon
+----
+The only person you are destined to become is the person you decide to be.
+    Ralph Waldo Emerson
+----
+We can't help everyone, but everyone can help someone.
+    Ronald Reagan
+----
+Everything you've ever wanted is on the other side of fear.
+    George Addair
+----
+We can easily forgive a child who is afraid of the dark; the real tragedy of
+life is when men are afraid of the light.
+    Plato
+----
+Nothing will work unless you do.
+    Maya Angelou
+----
+I alone cannot change the world, but I can cast a stone across the water to
+create many ripples.
+    Mother Teresa
+----
+What we achieve inwardly will change outer reality.
+    Plutarch
+----
 
