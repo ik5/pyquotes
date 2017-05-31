@@ -1565,8 +1565,8 @@ limo.
 ----
 If scientists are so clever, what is the speed of dark?
 ----
-    God Is Perfect,
-    Man Is Not,
+God Is Perfect,
+Man Is Not,
 Man Made Alcohol,
 God Made Pot !!!!
 ----
@@ -1947,13 +1947,11 @@ read them."
     Mark Twain (1835-1910)
 ----
 "I choose a block of marble and chop off whatever I don't need."
-    Francois-Auguste Rodin (1840-1917), when asked how he managed to make his
-remarkable statues
+    Francois-Auguste Rodin (1840-1917), when asked how he managed to make his remarkable statues
 ----
 "Interesting - I use a Mac to help me design the next Cray."
     Seymoure Cray (1925-1996) when he was told that Apple Inc.
-	        had recently bought a Cray supercomputer to help them design
-the next Mac.
+	        had recently bought a Cray supercomputer to help them design the next Mac.
 ----
 "A poem is never finished, only abandoned."
     Paul Valery (1871-1945)
@@ -2062,8 +2060,7 @@ equality of opportunity."
     Will Rogers (1879-1935)
 ----
 "I think it would be a good idea."
-    Mahatma Gandhi (1869-1948), when asked what he thought of Western
-civilization
+    Mahatma Gandhi (1869-1948), when asked what he thought of Western civilization
 ----
 "I think there is a world market for maybe five computers."
     Thomas Watson (1874-1956), Chairman of IBM, 1943
@@ -2191,40 +2188,34 @@ private\windows\media\avi\verinfo.16\verinfo.h:
     *       !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
     *       !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
-    Seen at: http://www.kuro5hin.org/story/2004/2/15/71552/7795 - leaked
-Windows 2000 source
+    Seen at: http://www.kuro5hin.org/story/2004/2/15/71552/7795 - leaked Windows 2000 source
 ----
 private\genx\shell\inc\prsht.w:
 // we are such morons. Wiz97 underwent a redesign between IE4 and IE5
 
-    Seen at: http://www.kuro5hin.org/story/2004/2/15/71552/7795 - leaked
-Windows 2000 source
+    Seen at: http://www.kuro5hin.org/story/2004/2/15/71552/7795 - leaked Windows 2000 source
 ----
 private\shell\ext\ftp\ftpdrop.cpp:
 //We have to do this only because Exchange is a moron.
 
-    Seen at: http://www.kuro5hin.org/story/2004/2/15/71552/7795 - leaked
-Windows 2000 source
+    Seen at: http://www.kuro5hin.org/story/2004/2/15/71552/7795 - leaked Windows 2000 source
 ----
 private\shell\shdoc401\unicpp\desktop.cpp:
 // We are morons. We changed the IDeskTray interface between IE4
 
-    Seen at: http://www.kuro5hin.org/story/2004/2/15/71552/7795 - leaked
-Windows 2000 source
+    Seen at: http://www.kuro5hin.org/story/2004/2/15/71552/7795 - leaked Windows 2000 source
 ----
 private\inet\wininet\urlcache\filemgr.cxx:
 // ACHTUNG!!! this is a special hack for IBM antivirus software
 
-    Seen at: http://www.kuro5hin.org/story/2004/2/15/71552/7795 - leaked
-Windows 2000 source
+    Seen at: http://www.kuro5hin.org/story/2004/2/15/71552/7795 - leaked Windows 2000 source
 ----
 /*
 * nesting deeper and deeper, harder and harder, go, go, oh, OH, OHHHH!!
 * Sorry, got carried away there.
 */
 struct lo_FormElementOptionData_struct {
-    Seen at:
-http://discuss.fogcreek.com/joelonsoftware/default.asp?cmd=show&ixPost=3364
+    Seen at: http://discuss.fogcreek.com/joelonsoftware/default.asp?cmd=show&ixPost=3364
 ----
 /* IWDFWI */
 
@@ -2233,8 +2224,7 @@ Translation: It works, don't fuck with it.
                                              Mike Gunderloy
                                         Saturday, February 02, 2002
 
-    Seen at:
-http://discuss.fogcreek.com/joelonsoftware/default.asp?cmd=show&ixPost=3364
+    Seen at: http://discuss.fogcreek.com/joelonsoftware/default.asp?cmd=show&ixPost=3364
 ----
 // Hocus Pocus, grab the focus
     winSetFocus(...)
@@ -2759,8 +2749,7 @@ difference between knowing the path and walking the path.
 ----
 "Aim at heaven and you will get earth thrown in. Aim at earth and you get
 neither."
-      Clive Staples Lewis (1898-1963), British writer, critic, "Allegory of
-Love," "The Chronicles of Narnia"
+      Clive Staples Lewis (1898-1963), British writer, critic, "Allegory of Love," "The Chronicles of Narnia"
 ----
 "Notice the waves, each moving in its own order, predictable, unchanging. But
 drop in a single stone and see how the pattern changes. Everything around it is
@@ -3814,8 +3803,7 @@ Everything seemed hopeless... and then, it got worse.
 ----
 I'm working on it from time to time. I might even finish it by the end of the
 year (I just don't know which year:)
-    Alex Michailov - seen on his site
-http://www.stwing.upenn.edu/~avm/Amber.shtml
+    Alex Michailov - seen on his site http://www.stwing.upenn.edu/~avm/Amber.shtml
 ----
 To be, or not to be, that is the question:
 Whether 'tis nobler in the mind to suffer
@@ -4084,8 +4072,7 @@ with today's machines and what we have so far been able to finish.
 "... the psychological profiling [of a programmer] is mostly the ability to
 shift levels of abstraction, from low level to high level. To see something in
 the small and to see something in the large."
-    An interview with Donald Knuth (http://home.hccnet.nl/h.vink/lead.htm). Dr.
-Dobb's Journal, pages 16-22, April 1996
+    An interview with Donald Knuth (http://home.hccnet.nl/h.vink/lead.htm). Dr. Dobb's Journal, pages 16-22, April 1996
 ----
 Science is what we understand well enough to explain to a computer. Art is
 everything else we do.
@@ -4696,8 +4683,7 @@ greatness will destroy a man.
 Do you wrestle with dreams? Do you contend with shadows? Do you move in a kind
 of sleep? Time has slipped away. Your life is stolen. You tarried with trifles,
 Victim of your folly.
-    Dirge for Jamis on the Funeral Plain, from "Songs of Muad'Dib" by the
-Princess Irulan
+    Dirge for Jamis on the Funeral Plain, from "Songs of Muad'Dib" by the Princess Irulan
 ----
 There is a legend that the instant the Duke Leto Atreides died a meteor
 streaked across the skies above his ancestral palace on Caladan.
@@ -5393,8 +5379,7 @@ too sophisticated for a Romulan pig like you to understand.
 Klingon.
 1. Our users will know fear and cower before our software! Ship it! Ship it and
 let them flee like the dogs they are!
-    Top 10 things likely to be overheard from a Klingon Programmer,
-http://www.annoyances.org/exec/show/article09-205
+    Top 10 things likely to be overheard from a Klingon Programmer, http://www.annoyances.org/exec/show/article09-205
 ----
 Get all the fools on your side and you can be elected to anything.
     Frank Dane
@@ -13387,8 +13372,7 @@ Spending on the military doesn't increase the deficit.
 ----
 If ignorance ever goes to $40 a barrel, I want drillin' rights on that man's
 head.
-    Texas Agriculture Commissioner Jim Hightower discussing President George
-Bush's policies
+    Texas Agriculture Commissioner Jim Hightower discussing President George Bush's policies
 ----
 There's a lot of uncertainty that's not clear in my mind.
     Texas House Speaker Gib Lewis
