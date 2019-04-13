@@ -18125,7 +18125,7 @@ I regret nothing, ever
 Better to not know which moment may be your last alive to be mystery of it all.
     Jack Sparrow
 ----
-Close your eyes and pretend all a bad dream. That’s how I get by.
+Close your eyes and pretend all a bad dream. That's how I get by.
     Jack Sparrow
 ----
 Why is all the rum gone?
@@ -18134,13 +18134,21 @@ Why is all the rum gone?
 Did everyone see that? Because I will not be doing it again.
     Jack Sparrow
 ----
-The world’s still the same. There’s just less in it.
+The world's still the same. There's just less in it.
     Jack Sparrow
 ----
 I can let you drown
     Jack Sparrow
 ----
 Did no one come to save me just because they missed me?
+    Jack Sparrow
+----
+I'm dishonest, and a dishonest man you can always trust to be dishonest.
+Honestly. It's the honest ones you want to watch out for, because you can never
+predict when they're going to do something incredibly ... stupid.
+    Jack Sparrow
+----
+If you were waiting for the opportune moment, that was it.
     Jack Sparrow
 ----
 
