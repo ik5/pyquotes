@@ -8,6 +8,7 @@ const fromHTMLElement = 'from';
 
 class Quotes {
   htmlFields = { quoteBody: null, from: null };
+  quotesContainer = [];
 
   constructor() {
     this.htmlFields.quoteBody = document.getElementById(quoteBodyHTMLElement);
@@ -16,26 +17,29 @@ class Quotes {
   }
 
   async getFile() {
-    let content;
     const utf8Decoder = new TextDecoder('utf-8');
     try {
       const response = await window.fetch(quoteFileAddress);
+      if (!response.ok) {
+        alert('Something went wrong');
+        return;
+      }
       const reader = response.body.getReader();
       let { value: chunk, done: readerDone } = await reader.read();
       chunk = chunk ? utf8Decoder.decode(chunk) : '';
-      content = chunk;
+      this.parseContent(chunk);
     } catch (e) {
       alert("Unable to get quote file: " + e.message);
       return
     }
-    this.parseContent(content);
   }
 
   parseContent(content) {
+    console.log('parseContent');
     let line = '';
     let index = 0;
     const lines = content.split(quoteSeperator);
-    console.debug(lines);
+    console.log(lines);
 
   }
 
