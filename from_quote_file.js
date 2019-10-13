@@ -58,7 +58,7 @@ class Quotes {
   }
 
   getRandomQuote() {
-    console.log('getRandomQuote', this.quotesContainer);
+    console.log('getRandomQuote', this.htmlFields);
   }
 
 }
