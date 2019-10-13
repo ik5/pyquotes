@@ -62,7 +62,6 @@ class Quotes {
   }
 
   getRandomQuote() {
-    console.log('getRandomQuote', this.htmlFields);
     const rand = this.getRandomInt(this.quotesContainer.length);
 
     const quote = this.quotesContainer[rand];
