@@ -60,7 +60,7 @@ class Quotes {
   }
 
   calcFontSize(textLength) {
-    const baseSize = 8
+    const baseSize = 7;
     if (textLength >= baseSize) {
       textLength = baseSize - 2
     }
