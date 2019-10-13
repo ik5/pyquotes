@@ -2,3 +2,4 @@
 db/*fdb
 quotes/
 log/*
+.idea/**

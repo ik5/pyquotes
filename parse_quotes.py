@@ -1,4 +1,4 @@
-#!/usr/bin/env python2
+#!/usr/bin/env python3
 
 
 QUOTES_FILE = 'quotes.txt'
@@ -10,19 +10,19 @@ def iter_quotes(quotes_file=QUOTES_FILE):
     "Walks the quotes file, yields (quote, author) tuples for each quote"
 
     with open(quotes_file) as f:
-        quote = []
+        quotes = []
 
         for line in f:
             if line != SEPARATOR:
-                quote.append(line)
+                quotes.append(line)
             else:
-                if quote[-1].startswith(AUTHOR_MARK):
-                    author = quote.pop().strip()
+                if quotes[-1].startswith(AUTHOR_MARK):
+                    author = quotes.pop().strip()
                 else:
                     author = None
 
-                yield ''.join(quote).rstrip(), author
-                quote = []
+                yield ''.join(quotes).rstrip(), author
+                quotes = []
 
 
 if __name__ == '__main__':
