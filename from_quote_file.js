@@ -13,7 +13,9 @@ class Quotes {
     this.htmlFields.quoteBody = document.getElementById(quoteBodyHTMLElement);
     this.htmlFields.from = document.getElementById(fromHTMLElement);
 
-    this.getFile();
+    if ( 1 === 2 ) {
+      this.getFile();
+    }
   }
 
   async getFile() {
@@ -29,21 +31,19 @@ class Quotes {
       alert("Unable to get quote file: " + e.message);
       return
     }
-    console.log('content:', content);
     this.parseContent(content);
   }
-
-
 
   parseContent(content) {
 
   }
 
-  run() {
-
+  getRandomQuote() {
+    console.log('getRandomQuote');
   }
+
 }
 
 const quote = new Quotes();
 
-quote.run();
+quote.getRandomQuote();

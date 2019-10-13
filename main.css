@@ -1,0 +1,107 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: white;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+#quote-body {
+  font-family: 'Be Vietnam', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h4#from {
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Cardo', serif;
+}
+
+.wrapper {
+  padding: 0;
+  margin: 0;
+}
+
+div.load-new-quote {
+  text-align: center;
+  margin-top: 0.95rem;
+}
+
+a.load-button {
+  background-color: rgb(137, 127, 255);
+  text-decoration: none;
+  color: white;
+  font-family: 'Oswald', sans-serif;
+  font-weight: normal;
+  border: 1px ridge rgba(13, 14, 14, 20.5);
+  border-radius: 3px;
+  padding: 0.5rem;
+}
+
+a.load-button:hover {
+  background-color: rgb(130, 120, 248);
+  border: 1px ridge rgba(50, 20, 20, 20.5);
+  border-radius: 5px;
+  font-weight: 600;
+}
+
+/* center the blockquote in the page */
+.blockquote-wrapper {
+   display: flex;
+   height: 90vh;
+   padding: 0 20px;
+}
+
+/* Blockquote main style */
+.blockquote {
+    position: relative;
+    font-weight: 800;
+    color: #00000;
+    padding: 30px 0;
+    width: 100%;
+    max-width: 500px;
+    z-index: 1;
+    margin: 80px auto;
+    align-self: center;
+    border-top: solid 1px;
+    border-bottom: solid 1px;
+}
+
+/* Blockquote header */
+.blockquote h1 {
+    position: relative;
+    color: #101010;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 1;
+    margin: 0;
+}
+
+/* Blockquote right double quotes */
+.blockquote:after {
+    position: absolute;
+    content: "”";
+    color: rgba(10, 10, 10, 1);
+    font-size: 10rem;
+    line-height: 0;
+    bottom: -43px;
+    right: 30px;
+}
+
+/* increase header size after 600px */
+@media all and (min-width: 600px) {
+    .blockquote h1 {
+        font-size: 60px;
+   }
+}
+
+/* Blockquote subheader */
+.blockquote h4 {
+    position: relative;
+    color: #292a2b;
+    font-size: 1.4rem;
+    font-weight: normal;
+    line-height: 1;
+    margin: 0;
+    padding-top: 20px;
+    z-index: 1;
+}

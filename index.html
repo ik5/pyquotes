@@ -4,19 +4,28 @@
     <meta http-equiv="content-language" content="en-US">
     <meta charset="utf-8" />
     <title>Quotes</title>
-    <link type="text/css" rel="stylesheet" href="/main.css" >
+    <link href="https://fonts.googleapis.com/css?family=Be+Vietnam|Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cardo|Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="main.css" >
   </head>
   <body>
-    <section class="">
-      <header>
-        <h1>Quote</h1>
-      </header>
-      <div class="quote">
-        <blockquote id="quote-body"></blockquote>
-        <h3 id="from"></h3>
+    <section class="wrapper">
+
+      <div class="load-new-quote">
+        <a class="load-button" href="#" onClick="quote.getRandomQuote()">Load New Quote</a>
       </div>
+
+      <div class="blockquote-wrapper">
+        <div class="blockquote">
+          <h1 id="quote-body">
+            Start before you are ready
+          </h1>
+          <h4 id="from">&mdash;Steven Pressfield</h4>
+        </div>
+      </div>
+
     </section>
-    <script src="from_quote_file.js" >
-    </script>
+    <script src="from_quote_file.js" > </script>
   </body>
 </html>
