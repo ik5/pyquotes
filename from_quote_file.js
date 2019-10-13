@@ -34,12 +34,12 @@ class Quotes {
     let index = 0;
     const lines = content.split(quoteSeperator);
     let len = lines.length;
-    console.log(lines.length, lines[len]);
-    if (lines[len] =~ /^(\s+)?\n+$/) {
+    console.log(len, lines[len - 1]);
+    if (lines[len - 1] =~ /^(\s+)?\n+$/) {
       lines.splice(-1, 1);
       len = lines.length;
     }
-    console.log(lines.length, lines[len]);
+    console.log(len, lines[len - 1]);
 
   }
 
