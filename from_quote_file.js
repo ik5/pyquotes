@@ -1,5 +1,5 @@
 const quoteSeperator = /\n----\n/;
-const authorSeperator = /^\s{4}(.*?)$/;
+const authorSeperator = /\n\s{4}(.*?)$/;
 const quoteFileAddress = 'quotes.txt';
 
 const quoteBodyHTMLElement = 'quote-body';
@@ -34,12 +34,13 @@ class Quotes {
     let index = 0;
     const lines = content.split(quoteSeperator);
     let len = lines.length;
-    console.log(len, lines[len - 1]);
+
     if (lines[len - 1] =~ /^(\s+)?\n+$/) {
       lines.splice(-1, 1);
       len = lines.length;
     }
-    console.log(len, lines[len - 1]);
+    console.log(authorSeperator.test(lines[len - 1]));
+    console.log(authorSeperator.match(lines[len - 1]));
 
   }
 
