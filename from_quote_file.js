@@ -61,14 +61,14 @@ class Quotes {
 
   calcFontSize(textLength) {
     const baseSize = 5;
-    ;
+
     if (textLength >= baseSize) {
-      textLength = baseSize - 2
+      textLength = baseSize - 2;
     }
 
-    const fontSize = baseSize - textLength
+    const fontSize = baseSize - textLength;
 
-    return `${fontSize}vw`
+    return `${fontSize}vw`;
   }
 
   getRandomQuote() {
