@@ -61,7 +61,7 @@ class Quotes {
     return Math.floor(Math.random() * Math.floor(max));
   }
 
-  calcFontSize(text) {
+  calcFontSize(textLength) {
     const baseSize = 9
     if (textLength >= baseSize) {
       textLength = baseSize - 2
@@ -77,7 +77,7 @@ class Quotes {
 
     const quote = this.quotesContainer[rand];
     this.htmlFields.quoteBody.innerText = quote.text;
-    this.htmlFields.quoteBody.style.fontSize = this.calcFontSize(quote.text);
+    this.htmlFields.quoteBody.style.fontSize = this.calcFontSize(quote.text.length);
 
     if (quote.author) {
       this.htmlFields.from.innerText = '—' + quote.author
