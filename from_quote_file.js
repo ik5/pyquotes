@@ -1,5 +1,6 @@
 const quoteSeperator = /\n----\n/;
 const authorSeperator = /\n\s{4}(.*?)$/;
+const emptyLine = /^(\s+)?\n+$/
 const quoteFileAddress = 'quotes.txt';
 
 const quoteBodyHTMLElement = 'quote-body';
@@ -34,14 +35,12 @@ class Quotes {
     const lines = content.split(quoteSeperator);
     let len = lines.length;
 
-    if (lines[len - 1] =~ /^(\s+)?\n+$/) {
+    if (lines[len - 1] =~ emptyLine) {
       lines.splice(-1, 1);
       len = lines.length;
     }
     lines.forEach(item => {
-      const quote = {
-        text: '',
-      }
+      const quote = { text: '' };
 
       if (authorSeperator.test(item)) {
         quote.author = item.match(authorSeperator)[1].replace(/\n/, ' ');
@@ -61,7 +60,7 @@ class Quotes {
   }
 
   calcFontSize(textLength) {
-    const baseSize = 9
+    const baseSize = 8
     if (textLength >= baseSize) {
       textLength = baseSize - 2
     }
