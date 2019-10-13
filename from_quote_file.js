@@ -50,13 +50,13 @@ class Quotes {
         quote.text = item.replace(/\n/, ' ');
       }
 
-      quotesContainer.push(quote);
+      this.quotesContainer.push(quote);
     });
 
   }
 
   getRandomQuote() {
-    console.log('getRandomQuote', quotesContainer);
+    console.log('getRandomQuote', this.quotesContainer);
   }
 
 }
