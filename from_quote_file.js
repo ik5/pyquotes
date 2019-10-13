@@ -1,4 +1,4 @@
-const quoteSeperator = /^----$/;
+const quoteSeperator = /\n----\n/;
 const authorSeperator = /^\s{4}(.*?)$/;
 const quoteFileAddress = 'quotes.txt';
 
@@ -39,7 +39,7 @@ class Quotes {
     let line = '';
     let index = 0;
     const lines = content.split(quoteSeperator);
-    console.log(lines[2]);
+    console.log(lines.length);
 
   }
 
