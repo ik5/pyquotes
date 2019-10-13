@@ -24,6 +24,7 @@ h4#from {
 div.load-new-quote {
   text-align: center;
   margin-top: 0.95rem;
+  z-index: 20;
 }
 
 a.load-button {
@@ -35,7 +36,6 @@ a.load-button {
   border: 1px ridge rgba(13, 14, 14, 20.5);
   border-radius: 3px;
   padding: 0.5rem;
-  z-index: 2;
 }
 
 a.load-button:hover {
@@ -57,7 +57,7 @@ a.load-button:hover {
 .blockquote {
     position: relative;
     font-weight: 800;
-    color: #00000;
+    color: black;
     padding: 30px 0;
     width: 100%;
     max-width: 600px;
