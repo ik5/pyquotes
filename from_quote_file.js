@@ -1,6 +1,6 @@
 const quoteSeperator = '^----$';
 const authorSeperator = '^\s{4}(.*?)$';
-const quoteFileAddress = '/quotes.txt';
+const quoteFileAddress = 'quotes.txt';
 
 const quoteBodyHTMLElement = 'quote-body';
 const fromHTMLElement = 'from';
