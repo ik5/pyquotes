@@ -16,23 +16,17 @@ class Quotes {
     this.getFile();
   }
 
-  async getFile() {
-    const utf8Decoder = new TextDecoder('utf-8');
-    try {
-      const response = await window.fetch(quoteFileAddress);
-      if (!response.ok) {
-        alert('Something went wrong');
-        return;
-      }
-      const reader = response.body.getReader();
-      let { value: chunk, done: readerDone } = await reader.read();
-      chunk = chunk ? utf8Decoder.decode(chunk) : '';
-      this.parseContent(chunk);
-    } catch (e) {
-      alert("Unable to get quote file: " + e.message);
-      return
+   getFile() {
+
+     fetch(quoteFileAddress)
+     .then(response => {
+       response.text().then(
+         content => this.parseContent(content)
+       )
+     })
+     .catch(e => alert("Unable to get quote file: " + e.message));
+
     }
-  }
 
   parseContent(content) {
     console.log('parseContent');
