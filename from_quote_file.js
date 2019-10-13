@@ -57,8 +57,21 @@ class Quotes {
     this.getRandomQuote();
   }
 
+  getRandomInt(max) {
+    return Math.floor(Math.random() * Math.floor(max));
+  }
+
   getRandomQuote() {
     console.log('getRandomQuote', this.htmlFields);
+    const rand = this.getRandomInt(this.quotesContainer.length);
+
+    const quote = this.quotesContainer[rand];
+    this.htmlFields.quoteBody.innerText = quote.text;
+    if (quote.author) {
+      this.htmlFields.from.innerText = '—' + quote.author
+    } else {
+      this.htmlFields.from.innerText = '';
+    }
   }
 
 }
