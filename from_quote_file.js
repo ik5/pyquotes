@@ -40,7 +40,7 @@ class Quotes {
       len = lines.length;
     }
     console.log(authorSeperator.test(lines[len - 1]));
-    console.log(authorSeperator.match(lines[len - 1]));
+    console.log(lines[len - 1].match(authorSeperator));
 
   }
 
