@@ -45,7 +45,7 @@ class Quotes {
       }
 
       if (authorSeperator.test(item)) {
-        quote.author = item.match(authorSeperator)[1];
+        quote.author = item.match(authorSeperator)[1].replace(/\n/, ' ');
         quote.text = item.replace(authorSeperator, '').replace(/\n/, ' ');
       } else {
         quote.text = item.replace(/\n/, ' ');
