@@ -54,6 +54,7 @@ class Quotes {
       this.quotesContainer.push(quote);
     });
 
+    this.getRandomQuote();
   }
 
   getRandomQuote() {
@@ -64,4 +65,3 @@ class Quotes {
 
 const quote = new Quotes();
 
-quote.getRandomQuote();
