@@ -39,13 +39,24 @@ class Quotes {
       lines.splice(-1, 1);
       len = lines.length;
     }
-    console.log(authorSeperator.test(lines[len - 1]));
-    console.log(lines[len - 1].match(authorSeperator));
+    lines.forEach(item => {
+      const quote = {
+        text: '',
+      }
+
+      if (authorSeperator.test(item)) {
+        quote.author = item.match(authorSeperator)[1];
+      } else {
+        quote.text = item.replace(/\n/, ' ');
+      }
+
+      quotesContainer.push(quote);
+    });
 
   }
 
   getRandomQuote() {
-    console.log('getRandomQuote');
+    console.log('getRandomQuote', quotesContainer);
   }
 
 }
