@@ -1,5 +1,5 @@
-const quoteSeperator = '^----$';
-const authorSeperator = '^\s{4}(.*?)$';
+const quoteSeperator = /^----$/;
+const authorSeperator = /^\s{4}(.*?)$/;
 const quoteFileAddress = 'quotes.txt';
 
 const quoteBodyHTMLElement = 'quote-body';
@@ -12,10 +12,7 @@ class Quotes {
   constructor() {
     this.htmlFields.quoteBody = document.getElementById(quoteBodyHTMLElement);
     this.htmlFields.from = document.getElementById(fromHTMLElement);
-
-    if ( 1 === 2 ) {
-      this.getFile();
-    }
+    this.getFile();
   }
 
   async getFile() {
@@ -35,6 +32,10 @@ class Quotes {
   }
 
   parseContent(content) {
+    let line = '';
+    let index = 0;
+    const lines = content.split(quoteSeperator);
+    console.debug(lines);
 
   }
 
