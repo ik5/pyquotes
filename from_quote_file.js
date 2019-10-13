@@ -29,7 +29,7 @@ class Quotes {
       alert("Unable to get quote file: " + e.message);
       return
     }
-
+    console.log('content:', content);
     this.parseContent(content);
   }
 
