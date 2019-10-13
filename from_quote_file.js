@@ -39,7 +39,7 @@ class Quotes {
     let line = '';
     let index = 0;
     const lines = content.split(quoteSeperator);
-    console.log(lines.length, lines[0], lines[1], lines[2]);
+    console.log(lines.length, lines[lines.length - 1]);
 
   }
 
