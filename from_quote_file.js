@@ -24,7 +24,7 @@ class Quotes {
          content => this.parseContent(content)
        )
      })
-     .catch(e => alert("Unable to get quote file: " + e.message));
+     .catch(e => alert("Unable to get quote file: " + e));
 
     }
 
@@ -33,7 +33,13 @@ class Quotes {
     let line = '';
     let index = 0;
     const lines = content.split(quoteSeperator);
-    console.log(lines.length, lines[lines.length - 1]);
+    let len = lines.length;
+    console.log(lines.length, lines[len]);
+    if (lines[len] =~ /^(\s+)?\n$/) {
+      lines.splice(-1, 1);
+      len = lines.length;
+    }
+    console.log(lines.length, lines[len]);
 
   }
 
