@@ -54,7 +54,7 @@ a.load-button:hover {
 /* Blockquote main style */
 .blockquote {
     position: relative;
-    font-weight: 700;
+    font-weight: 800;
     color: #00000;
     padding: 30px 0;
     width: 100%;
@@ -70,8 +70,8 @@ a.load-button:hover {
 .blockquote h1 {
     position: relative;
     color: #101010;
-    font-size: 20px;
-    font-weight: 700;
+    font-size: 40px;
+    font-weight: 800;
     line-height: 1;
     margin: 0;
 }
@@ -90,7 +90,7 @@ a.load-button:hover {
 /* increase header size after 600px */
 @media all and (min-width: 600px) {
     .blockquote h1 {
-        font-size: 40px;
+        font-size: 60px;
    }
 }
 

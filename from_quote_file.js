@@ -61,11 +61,24 @@ class Quotes {
     return Math.floor(Math.random() * Math.floor(max));
   }
 
+  calcFontSize(text) {
+    const baseSize = 9
+    if (textLength >= baseSize) {
+      textLength = baseSize - 2
+    }
+
+    const fontSize = baseSize - textLength
+
+    return `${fontSize}vw`
+  }
+
   getRandomQuote() {
     const rand = this.getRandomInt(this.quotesContainer.length);
 
     const quote = this.quotesContainer[rand];
     this.htmlFields.quoteBody.innerText = quote.text;
+    this.htmlFields.quoteBody.style.fontSize = this.calcFontSize(quote.text);
+
     if (quote.author) {
       this.htmlFields.from.innerText = '—' + quote.author
     } else {
