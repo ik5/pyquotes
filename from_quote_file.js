@@ -35,7 +35,7 @@ class Quotes {
     const lines = content.split(quoteSeperator);
     let len = lines.length;
     console.log(lines.length, lines[len]);
-    if (lines[len] =~ /^(\s+)?\n$/) {
+    if (lines[len] =~ /^(\s+)?\n+$/) {
       lines.splice(-1, 1);
       len = lines.length;
     }
