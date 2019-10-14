@@ -32,8 +32,6 @@ class Quotes {
     }
 
   parseContent(content) {
-    let line = '';
-    let index = 0;
     const lines = content.split(quoteSeperator);
     let len = lines.length;
 
