@@ -127,6 +127,6 @@ const process_touchstart = (ev) => {
   }
 }
 
-blockquoteWrapper.addEventListener('touchstart', process_touchstart, false);
-blockquoteWrapper.addEventListener('dblclick', copyToClipboard, false);
+// blockquoteWrapper.addEventListener('touchstart', process_touchstart, false);
+// blockquoteWrapper.addEventListener('dblclick', copyToClipboard, false);
 
