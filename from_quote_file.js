@@ -95,19 +95,26 @@ class Quotes {
 const quote = new Quotes();
 
 const copyToClipboard = () => {
-  navigator.permissions.query({name: "clipboard-write"}).then(result => {
-    if (result.state == "granted" || result.state == "prompt") {
-      const currentQuote = quote.getCurrentQuote();
-      let quoteText = currentQuote.text;
-      if (currentQuote.author) {
-        quoteText += `\n— ${quote.author}`
+  const currentQuote = quote.getCurrentQuote();
+  let quoteText = currentQuote.text;
+  if (currentQuote.author) {
+    quoteText += `\n— ${quote.author}`
+  }
+
+  try { // Chrome should work
+    navigator.permissions.query({name: 'clipboard-write'}).then(result => {
+      if (result.state == 'granted' || result.state == 'prompt') {
+        navigator.clipboard.writeText(quoteText)
+        .catch(e => alert('Unable copying to clipboard: ' + e));
+      } else {
+        alert('Copy to clipboard is not allowed')
       }
-      navigator.clipboard.writeText(quoteText)
-      .catch(e => alert('Unable copying to clipboard: ' + e));
-    } else {
-      alert('Copy to clipboard is not allowed')
-    }
-  });
+    });
+
+  } catch (e) { // firefox?
+    navigator.clipboard.writeText(quoteText)
+    .catch(e => alert('Unable copying to clipboard: ' + e));
+  }
 }
 
 
