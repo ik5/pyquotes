@@ -79,7 +79,7 @@ class Quotes {
   getRandomQuote() {
     this.quoteIndex = this.getRandomInt(this.quotesContainer.length);
 
-    const quote = this.quotesContainer[this.quoteInddx];
+    const quote = this.quotesContainer[this.quoteIndex];
     this.htmlFields.quoteBody.innerText = quote.text;
     this.htmlFields.quoteBody.style.fontSize = this.calcFontSize(quote.text.length);
 
