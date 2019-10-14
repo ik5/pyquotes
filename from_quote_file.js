@@ -9,6 +9,7 @@ const fromHTMLElement = 'from';
 
 class Quotes {
   htmlFields = { quoteBody: null, from: null };
+  quoteIndex = -1;
   quotesContainer = [];
 
   constructor() {
@@ -71,10 +72,14 @@ class Quotes {
     return `${fontSize}vw`;
   }
 
-  getRandomQuote() {
-    const rand = this.getRandomInt(this.quotesContainer.length);
+  getCurrentQuote() {
+    return this.quotesContainer[this.quoteIndex];
+  }
 
-    const quote = this.quotesContainer[rand];
+  getRandomQuote() {
+    this.quoteIndex = this.getRandomInt(this.quotesContainer.length);
+
+    const quote = this.quotesContainer[this.quoteInddx];
     this.htmlFields.quoteBody.innerText = quote.text;
     this.htmlFields.quoteBody.style.fontSize = this.calcFontSize(quote.text.length);
 
@@ -88,4 +93,21 @@ class Quotes {
 }
 
 const quote = new Quotes();
+
+const copyToClipboard = () => {
+  navigator.permissions.query({name: "clipboard-write"}).then(result => {
+    if (result.state == "granted" || result.state == "prompt") {
+      const currentQuote = quote.getCurrentQuote();
+      let quoteText = currentQuote.text;
+      if (currentQuote.author) {
+        quoteText += `\n— ${quote.author}`
+      }
+      navigator.clipboard.writeText(quoteText)
+      .catch(e => alert('Unable copying to clipboard: ' + e));
+    } else {
+      alert('Copy to clipboard is not allowed')
+    }
+  });
+}
+
 
