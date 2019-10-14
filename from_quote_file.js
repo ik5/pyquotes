@@ -8,13 +8,14 @@ const fromHTMLElement = 'from';
 
 
 class Quotes {
-  htmlFields = { quoteBody: null, from: null };
-  quoteIndex = -1;
-  quotesContainer = [];
 
   constructor() {
-    this.htmlFields.quoteBody = document.getElementById(quoteBodyHTMLElement);
-    this.htmlFields.from = document.getElementById(fromHTMLElement);
+    this.htmlFields = {
+      quoteBody: document.getElementById(quoteBodyHTMLElement),
+      from: document.getElementById(fromHTMLElement),
+    };
+    this.quoteIndex = -1;
+    this.quotesContainer = [];
     this.getFile();
   }
 
