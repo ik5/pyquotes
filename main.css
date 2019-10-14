@@ -47,7 +47,7 @@ a.load-button:hover {
 
 footer.link {
   position: absolute;
-  bottom: 0px;
+  bottom: 0;
   text-align: center;
   width: 100%;
 }
@@ -63,62 +63,62 @@ a.quote-file {
 
 /* center the blockquote in the page */
 .blockquote-wrapper {
-   display: flex;
-   height: 90vh;
-   padding: 0 20px;
+  display: flex;
+  height: 90vh;
+  padding: 0 20px;
 }
 
 /* Blockquote main style */
 .blockquote {
-    position: relative;
-    font-weight: 800;
-    color: black;
-    padding: 30px 0;
-    width: 100%;
-    max-width: 800px;
-    z-index: 1;
-    margin: 80px auto;
-    align-self: center;
-    border-top: solid 1px;
-    border-bottom: solid 1px;
+  position: relative;
+  font-weight: 800;
+  color: black;
+  padding: 30px 0;
+  width: 100%;
+  max-width: 800px;
+  z-index: 1;
+  margin: 80px auto;
+  align-self: center;
+  border-top: solid 1px;
+  border-bottom: solid 1px;
 }
 
 /* Blockquote header */
 .blockquote h1 {
-    position: relative;
-    color: #101010;
-    font-size: 40px;
-    font-weight: 800;
-    line-height: 1;
-    margin: 0;
+  position: relative;
+  color: #101010;
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 1;
+  margin: 0;
 }
 
 /* Blockquote right double quotes */
-.blockquote:after {
-    position: absolute;
-    content: "”";
-    color: rgba(10, 10, 10, 1);
-    font-size: 10rem;
-    line-height: 0;
-    bottom: -43px;
-    right: 30px;
+.blockquote::after {
+  position: absolute;
+  content: "”";
+  color: rgba(10, 10, 10, 1);
+  font-size: 10rem;
+  line-height: 0;
+  bottom: -43px;
+  right: 30px;
 }
 
 /* increase header size after 600px */
 @media all and (min-width: 600px) {
-    .blockquote h1 {
-        font-size: 60px;
-   }
+  .blockquote h1 {
+    font-size: 60px;
+  }
 }
 
 /* Blockquote subheader */
 .blockquote h4 {
-    position: relative;
-    color: #292a2b;
-    font-size: 1.4rem;
-    font-weight: normal;
-    line-height: 1;
-    margin: 0;
-    padding-top: 20px;
-    z-index: 1;
+  position: relative;
+  color: #292a2b;
+  font-size: 1.4rem;
+  font-weight: normal;
+  line-height: 1;
+  margin: 0;
+  padding-top: 20px;
+  z-index: 1;
 }
