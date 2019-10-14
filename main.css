@@ -45,6 +45,22 @@ a.load-button:hover {
   font-weight: 600;
 }
 
+footer.link {
+  position: absolute;
+  bottom: 0px;
+  text-align: center;
+  width: 100%;
+}
+
+footer.link p {
+  text-align: center;
+}
+
+a.quote-file {
+  font-size: 1.3rem;
+  font-family: 'Roboto', sans-serif;
+}
+
 /* center the blockquote in the page */
 .blockquote-wrapper {
    display: flex;
