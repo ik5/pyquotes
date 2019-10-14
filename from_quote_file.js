@@ -94,7 +94,12 @@ class Quotes {
 
 const quote = new Quotes();
 
-const copyToClipboard = () => {
+const blockquoteWrapper = document.querySelector('blockquote-wrapper');
+blockquoteWrapper.addEventListener('touchstart', process_touchstart, false);
+
+const copyToClipboard = (ev) => {
+  ev.preventDefault();
+
   const currentQuote = quote.getCurrentQuote();
   let quoteText = currentQuote.text;
   if (currentQuote.author) {
@@ -117,4 +122,8 @@ const copyToClipboard = () => {
   }
 }
 
-
+const process_touchstart = (ev) => {
+  switch (ev.touches.length) {
+    case 2: copyToClipboard(ev); break;
+  }
+}
