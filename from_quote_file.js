@@ -95,7 +95,6 @@ class Quotes {
 const quote = new Quotes();
 
 const blockquoteWrapper = document.getElementById('blockquote-wrapper');
-blockquoteWrapper.addEventListener('touchstart', process_touchstart, false);
 
 const copyToClipboard = (ev) => {
   ev.preventDefault();
@@ -127,3 +126,6 @@ const process_touchstart = (ev) => {
     case 2: copyToClipboard(ev); break;
   }
 }
+
+blockquoteWrapper.addEventListener('touchstart', process_touchstart, false);
+
