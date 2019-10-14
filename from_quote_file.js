@@ -94,7 +94,7 @@ class Quotes {
 
 const quote = new Quotes();
 
-const blockquoteWrapper = document.querySelector('blockquote-wrapper');
+const blockquoteWrapper = document.getElementById('blockquote-wrapper');
 blockquoteWrapper.addEventListener('touchstart', process_touchstart, false);
 
 const copyToClipboard = (ev) => {
