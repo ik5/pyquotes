@@ -1015,7 +1015,7 @@ Beyond a critical point within a finite space, freedom diminishes as numbers
 increase.
 ...The human question is not how many can possibly survive within the system,
 but what kind of existence is possible for those who do survive.
-    Frank Herbert	Dune
+    Frank Herbert Dune
 ----
 If you think of yourselves as helpless and ineffectual, it is certain that you
 will
@@ -1951,7 +1951,7 @@ read them."
 ----
 "Interesting - I use a Mac to help me design the next Cray."
     Seymoure Cray (1925-1996) when he was told that Apple Inc.
-	        had recently bought a Cray supercomputer to help them design the next Mac.
+          had recently bought a Cray supercomputer to help them design the next Mac.
 ----
 "A poem is never finished, only abandoned."
     Paul Valery (1871-1945)
@@ -18300,9 +18300,40 @@ Men occasionally stumble over the truth, but most of them pick themselves up
 and hurry off as if nothing had happened.
     Winston Churchill
 ----
-
-
-
-
-
+Loyal customers, they don't just come back, they don't simply recommend you,
+they insist that their friends do business with you.
+    Chip Bell
+----
+In the world of Internet customer service, it's important to remember your
+competitor is only one mouse click away.
+    Doug Warner
+----
+Kind words can be short and easy to speak, but their echoes are truly endless.
+    Mother Teresa
+----
+Customer service represents the heart of a brand in the hearts of its customers.
+    Kate Nasser
+----
+Quality is remembered long after the price is forgotten.
+    Dale Carnegie
+----
+Customer service shouldn't just be a department, it should be the entire
+company.
+   Tony Hsieh
+----
+There is a big difference between a satisfied customer and a loyal customer.
+Never settle for 'satisfied'.
+    Shep Hyken
+----
+It is not the employer who pays the wages. Employers only handle the money. It
+is the customer who pays the wages.
+     Henry Ford
+----
+Although your customers won't love you if you give bad service, your competitors
+will.
+     Kate Zabriskie
+----
+Courteous treatment will make a customer a walking advertisement.
+     James Cash Penney
+----
 
