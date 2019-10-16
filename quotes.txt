@@ -14957,9 +14957,6 @@ What spectacle can be more edifying or more seasonable, than that of Liberty
 and Learning, each leaning on the other for their mutual and surest support?
     James Madison
 ----
-Never attribute to malice that which is adequately explained by stupidity.
-    Hanlon's razor
-----
 A well-known principle of human behavior says that when we ask someone to do us
 a favor we will be more successful if we provide a reason. People simply like
 to have reasons for what they do.
@@ -16800,7 +16797,7 @@ off against the wind, not with it.
 ----
 The most common way people give up their power is by thinking they don't have
 any.
-    Alice Walker
+    Alice Walker (Hanlon's razor)
 ----
 The most difficult thing is the decision to act, the rest is merely tenacity.
     Amelia Earhart
@@ -18400,4 +18397,8 @@ has been put in every heart.
 You must first be who you really are, then do what you need to do, in order to
 have what you want.
     Margaret Young
+----
+Alice: How long is forever?
+White Rabbit: Sometimes, just one second.
+    Lewis Carrol
 ----
