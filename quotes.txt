@@ -6435,11 +6435,6 @@ Documentation is the castor oil of programming. Managers think it is good for
 programmers and programmers hate it!.
     Gerald Weinberg
 ----
-Let us change our traditional attitude to the construction of programs. Instead
-of imagining that our main task is to instruct a computer what to to, let us
-concentrate rather on explaining to human beings what we want a computer to do.
-    Donald Knuth
-----
 Good code is its own best documentation. As you're about to add a comment, ask
 yourself, 'How can I improve the code so that this comment isn't needed?'
 Improve the code and then document it to make it even clearer.
@@ -17314,7 +17309,7 @@ divine protection.
 ----
 The Doctor: You just want cruelty to beget cruelty. You're not superior to
 people who were cruel to you. You're just a whole bunch of new cruel people.
- A whole bunch of new cruel people, being cruel to some other people, who'll
+A whole bunch of new cruel people, being cruel to some other people, who'll
 end up being cruel to you. The only way anyone can live in peace is if they're
 prepared to forgive. Why don't you break the cycle?
 
@@ -17342,7 +17337,7 @@ How are you going to protect your glorious revolution from the next one?
 Bonnie: We'll win.
 
 Doctor: Oh, will you? Well maybe -- maybe you will win. But nobody wins for
-long. The wheel just keepts turning. So, come on. Break the cycle.
+long. The wheel just keeps turning. So, come on. Break the cycle.
 
 Bonnie: Then why are you still talking?
 
