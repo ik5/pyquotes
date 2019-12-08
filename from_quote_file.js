@@ -5,6 +5,7 @@ const quoteFileAddress = 'quotes.txt';
 
 const quoteBodyHTMLElement = 'quote-body';
 const fromHTMLElement = 'from';
+const totalHTMLElement = 'total';
 
 
 class Quotes {
@@ -13,6 +14,7 @@ class Quotes {
     this.htmlFields = {
       quoteBody: document.getElementById(quoteBodyHTMLElement),
       from: document.getElementById(fromHTMLElement),
+      total: document.getElementById(totalHTMLElement),
     };
     this.quoteIndex = -1;
     this.quotesContainer = [];
@@ -52,6 +54,7 @@ class Quotes {
       this.quotesContainer.push(quote);
     });
 
+    this.htmlFields.totalHTMLElement.innerText = `${this.quotesContainer.length}`;
     this.getRandomQuote();
   }
 
