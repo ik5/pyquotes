@@ -54,7 +54,7 @@ class Quotes {
       this.quotesContainer.push(quote);
     });
 
-    this.htmlFields.totalHTMLElement.innerText = `${this.quotesContainer.length}`;
+    this.htmlFields.total.innerText = `${this.quotesContainer.length}`;
     this.getRandomQuote();
   }
 
