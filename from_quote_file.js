@@ -82,7 +82,6 @@ class Quotes {
 
   getRandomQuote() {
     this.quoteIndex = this.getRandomInt(this.quotesContainer.length);
-    this.htmlFields.currentQuoteIndex.innerText = `${this.quoteIndex || 0}`;
 
     const quote = this.quotesContainer[this.quoteIndex];
     this.htmlFields.quoteBody.innerText = quote.text;
@@ -93,6 +92,8 @@ class Quotes {
     } else {
       this.htmlFields.from.innerText = '';
     }
+
+    this.htmlFields.currentQuoteIndex.innerText = `${this.quoteIndex || 0}`;
   }
 
 }
