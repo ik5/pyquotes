@@ -16,7 +16,7 @@ class Quotes {
       quoteBody: document.getElementById(quoteBodyHTMLElement),
       from: document.getElementById(fromHTMLElement),
       total: document.getElementById(totalHTMLElement),
-      currentQuoteIndex: document.getElementById(currentQuoteIndex),
+      currentQuoteIndex: document.getElementById(currentQuoteIndexHTMLElement),
     };
     this.quoteIndex = -1;
     this.quotesContainer = [];
