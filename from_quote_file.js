@@ -77,12 +77,12 @@ class Quotes {
   }
 
   getCurrentQuote() {
-    this.htmlFields.currentQuoteIndex.innerText = `${this.quoteIndex}`;
     return this.quotesContainer[this.quoteIndex];
   }
 
   getRandomQuote() {
     this.quoteIndex = this.getRandomInt(this.quotesContainer.length);
+    this.htmlFields.currentQuoteIndex.innerText = `${this.quoteIndex || 0}`;
 
     const quote = this.quotesContainer[this.quoteIndex];
     this.htmlFields.quoteBody.innerText = quote.text;
