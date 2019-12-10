@@ -87,9 +87,9 @@ class Quotes {
     return this.quotesContainer[this.quoteIndex];
   }
 
-  getQuote(e) {
+  getQuote(clicked) {
     let quoteNumber = null
-    if (!e) {
+    if (!clicked) {
       if (this.url.hash != '') {
         quoteNumber = parseInt(this.url.hash, 10);
       } else if (this.url.args.length > 0) {
