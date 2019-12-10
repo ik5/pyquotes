@@ -87,16 +87,18 @@ class Quotes {
     return this.quotesContainer[this.quoteIndex];
   }
 
-  getQuote() {
+  getQuote(e) {
     let quoteNumber = null
-    if (this.url.hash != '') {
-      quoteNumber = parseInt(this.url.hash, 10);
-    } else if (this.url.args.length > 0) {
-      this.url.args.forEach( (value) => {
-        if (value.key === "quote" && quoteNumber === null) {
-          quoteNumber = parseInt(value.value, 10);
-        }
-      } );
+    if (!e) {
+      if (this.url.hash != '') {
+        quoteNumber = parseInt(this.url.hash, 10);
+      } else if (this.url.args.length > 0) {
+        this.url.args.forEach( (value) => {
+          if (value.key === "quote" && quoteNumber === null) {
+            quoteNumber = parseInt(value.value, 10);
+          }
+        } );
+      }
     }
 
     if (quoteNumber === null ||
