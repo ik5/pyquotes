@@ -18,6 +18,10 @@ class Quotes {
       total: document.getElementById(totalHTMLElement),
       currentQuoteIndex: document.getElementById(currentQuoteIndexHTMLElement),
     };
+    this.url = {
+      hash: '',
+      args: [],
+    }
     this.quoteIndex = -1;
     this.quotesContainer = [];
     this.getFile();
@@ -94,6 +98,16 @@ class Quotes {
     }
 
     this.htmlFields.currentQuoteIndex.innerText = `${this.quoteIndex || 0}`;
+  }
+
+  parseUrl(urlString) {
+    let url = new URL(urlString || window.location.href);
+    if (url.hash != '') {
+      this.url.hash = url.hash;
+    }
+
+    url.searchParams.forEach((value, key) => this.url.push({ key, value }));
+    console.log(this.url);
   }
 
 }
