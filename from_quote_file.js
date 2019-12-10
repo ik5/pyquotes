@@ -93,9 +93,8 @@ class Quotes {
       quoteNumber = parseInt(this.url.hash, 10);
     } else if (this.url.args.length > 0) {
       this.url.args.forEach( (value) => {
-        if (value.name === "quote") {
+        if (value.name === "quote" && quoteNumber === null) {
           quoteNumber = parseInt(value.value, 10);
-          break;
         }
       } );
     }
