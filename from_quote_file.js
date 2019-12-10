@@ -24,6 +24,8 @@ class Quotes {
     }
     this.quoteIndex = -1;
     this.quotesContainer = [];
+
+    this.parseUrl(window.location.href);
     this.getFile();
   }
 
@@ -71,7 +73,7 @@ class Quotes {
   calcFontSize(textLength) {
     const baseSize = 5;
 
-    if (textLength >= baseSize) {
+    if (textLength <= baseSize) {
       textLength = baseSize - 2;
     }
 
@@ -113,40 +115,4 @@ class Quotes {
 }
 
 const quote = new Quotes();
-
-const blockquoteWrapper = document.getElementById('blockquote-wrapper');
-
-const copyToClipboard = (ev) => {
-  ev.preventDefault();
-
-  const currentQuote = quote.getCurrentQuote();
-  let quoteText = currentQuote.text;
-  if (currentQuote.author) {
-    quoteText += `\n— ${quote.author}`
-  }
-
-  try { // Chrome should work
-    navigator.permissions.query({name: 'clipboard-write'}).then(result => {
-      if (result.state == 'granted' || result.state == 'prompt') {
-        navigator.clipboard.writeText(quoteText)
-        .catch(e => alert('Unable copying to clipboard: ' + e));
-      } else {
-        alert('Copy to clipboard is not allowed')
-      }
-    });
-
-  } catch (e) { // firefox?
-    navigator.clipboard.writeText(quoteText)
-    .catch(e => alert('Unable copying to clipboard: ' + e));
-  }
-}
-
-const process_touchstart = (ev) => {
-  switch (ev.touches.length) {
-    case 2: copyToClipboard(ev); break;
-  }
-}
-
-// blockquoteWrapper.addEventListener('touchstart', process_touchstart, false);
-// blockquoteWrapper.addEventListener('dblclick', copyToClipboard, false);
 
