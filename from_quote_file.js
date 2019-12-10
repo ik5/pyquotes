@@ -71,9 +71,9 @@ class Quotes {
   }
 
   calcFontSize(textLength) {
-    const baseSize = 5;
+    const baseSize = 7;
 
-    if (textLength <= baseSize) {
+    if (textLength >= baseSize) {
       textLength = baseSize - 2;
     }
 
@@ -108,7 +108,7 @@ class Quotes {
       this.url.hash = url.hash;
     }
 
-    url.searchParams.forEach((value, key) => this.url.push({ key, value }));
+    url.searchParams.forEach((value, key) => this.url.args.push({ key, value }));
     console.log(this.url);
   }
 
