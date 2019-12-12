@@ -88,17 +88,22 @@ class Quotes {
     return this.quotesContainer[this.quoteIndex];
   }
 
+  extractUrlQuoteNumber() {
+    this.url.args.forEach( (value) => {
+      if (value.key === "quote" && quoteNumber === null) {
+        return parseInt(value.value, 10);
+      }
+    } );
+    return -1;
+  }
+
   getQuote(clicked) {
     let quoteNumber = null
     if (!clicked) {
       if (this.url.hash != '') {
         quoteNumber = parseInt(this.url.hash, 10);
       } else if (this.url.args.length > 0) {
-        this.url.args.forEach( (value) => {
-          if (value.key === "quote" && quoteNumber === null) {
-            quoteNumber = parseInt(value.value, 10);
-          }
-        } );
+        quoteNumber = this.extractUrlQuoteNumber();
       }
     }
 
@@ -135,11 +140,22 @@ class Quotes {
     }
 
     url.searchParams.forEach((value, key) => this.url.args.push({ key, value }));
-    console.log(this.url);
   }
 
   onHistoryChanged(e) {
-    console.log(e);
+    this.parseUrl(window.location.href);
+    let quoteNumber = null;
+
+    if (this.url.hash != '') {
+      quoteNumber = parseInt(this.url.hash, 10);
+    } else if (this.url.args.length > 0) {
+      quoteNumber = this.extractUrlQuoteNumber();
+    }
+
+    if (this.quoteIndex === quoteNumber) {
+      return
+    }
+    this.getQuote();
   }
 
 }
