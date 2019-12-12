@@ -89,12 +89,14 @@ class Quotes {
   }
 
   extractUrlQuoteNumber() {
+    let quoteIndex = -1;
     this.url.args.forEach( (value) => {
       if (value.key === "quote") {
-        return parseInt(value.value, 10);
+        quoteIndex = parseInt(value.value, 10);
+        return;
       }
     } );
-    return -1;
+    return quoteIndex;
   }
 
   getQuote(clicked) {
