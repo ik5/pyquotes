@@ -25,6 +25,7 @@ class Quotes {
     this.quoteIndex = -1;
     this.quotesContainer = [];
 
+    window.onpopstate = this.onHistoryChanged;
     this.parseUrl(window.location.href);
     this.getFile();
   }
@@ -135,6 +136,10 @@ class Quotes {
 
     url.searchParams.forEach((value, key) => this.url.args.push({ key, value }));
     console.log(this.url);
+  }
+
+  onHistoryChanged(e) {
+    console.log(e);
   }
 
 }
