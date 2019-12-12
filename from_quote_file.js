@@ -90,7 +90,7 @@ class Quotes {
 
   extractUrlQuoteNumber() {
     this.url.args.forEach( (value) => {
-      if (value.key === "quote" && quoteNumber === null) {
+      if (value.key === "quote") {
         return parseInt(value.value, 10);
       }
     } );
