@@ -128,6 +128,8 @@ class Quotes {
     }
 
     this.htmlFields.currentQuoteIndex.innerText = `${this.quoteIndex || 0}`;
+    // NOTE: This is a small bug of twice having the same history
+    // TODO: fix it :D
     window.history.pushState({quote: this.quoteIndex}, document.head.title,
                              `?quote=${this.quoteIndex}`);
   }
