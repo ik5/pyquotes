@@ -128,7 +128,7 @@ class Quotes {
     }
 
     this.htmlFields.currentQuoteIndex.innerText = `${this.quoteIndex || 0}`;
-    window.history.pushState({quote: this.quoteIndex}, document.head.title,
+    window.history.replaceState({quote: this.quoteIndex}, document.head.title,
                              `?quote=${this.quoteIndex}`);
   }
 
