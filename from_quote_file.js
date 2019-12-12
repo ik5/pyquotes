@@ -25,9 +25,9 @@ class Quotes {
     this.quoteIndex = -1;
     this.quotesContainer = [];
 
-    window.onpopstate = this.onHistoryChanged;
     this.parseUrl(window.location.href);
     this.getFile();
+    window.onpopstate = this.onHistoryChanged;
   }
 
   getFile() {
