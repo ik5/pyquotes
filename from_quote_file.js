@@ -27,7 +27,8 @@ class Quotes {
 
     this.parseUrl(window.location.href);
     this.getFile();
-    window.onpopstate = this.onHistoryChanged;
+
+    window.onpopstate = this.onHistoryChanged.bind(this);
   }
 
   getFile() {
