@@ -152,7 +152,7 @@ class Quotes {
       quoteNumber = this.extractUrlQuoteNumber();
     }
 
-    if (this.quoteIndex === quoteNumber) {
+    if (this.quoteIndex > -1 && this.quoteIndex === quoteNumber) {
       return
     }
     this.getQuote();
