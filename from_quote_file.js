@@ -142,6 +142,7 @@ class Quotes {
       this.url.hash = url.hash.replace('#', '');
     }
 
+    this.url.args = [];
     url.searchParams.forEach((value, key) => this.url.args.push({ key, value }));
   }
 
@@ -155,9 +156,6 @@ class Quotes {
       quoteNumber = this.extractUrlQuoteNumber();
     }
 
-    if (this.quoteIndex > -1 && this.quoteIndex === quoteNumber) {
-      return
-    }
     this.getQuote();
   }
 
