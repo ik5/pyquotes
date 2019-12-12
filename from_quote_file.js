@@ -148,14 +148,6 @@ class Quotes {
 
   onHistoryChanged(e) {
     this.parseUrl(window.location.href);
-    let quoteNumber = null;
-
-    if (this.url.hash != '') {
-      quoteNumber = parseInt(this.url.hash, 10);
-    } else if (this.url.args.length > 0) {
-      quoteNumber = this.extractUrlQuoteNumber();
-    }
-
     this.getQuote();
   }
 
