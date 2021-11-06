@@ -4,6 +4,9 @@ body {
   margin: 0;
   padding: 0;
   text-align: center;
+  overflow: auto;
+  display: flex;
+  flex-direction:column;
 }
 
 #quote-body {
@@ -28,6 +31,12 @@ body {
   justify-content: center;
   align-items: center;
   align-content: center;
+}
+
+.container:after {
+  display: block;
+  margin: 2px;
+  flex: 999 999 auto;
 }
 
 .flex-box:nth-child(1) {
@@ -77,9 +86,10 @@ a.load-button:hover {
 
 footer.link {
   bottom: 0;
-  position: absolute;
+  position: block;
   text-align: center;
   width: 100%;
+  margin-top:auto;
 }
 
 footer.link p {
@@ -89,10 +99,6 @@ footer.link p {
 .quote-file {
   font-family: 'Roboto', sans-serif;
   font-size: 1.3rem;
-}
-
-/* center the blockquote in the page */
-.blockquote-wrapper {
 }
 
 /* Blockquote main style */
