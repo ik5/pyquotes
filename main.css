@@ -21,6 +21,33 @@ body {
   padding: 0;
 }
 
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.flex-box:nth-child(1) {
+  display: block;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  align-self: auto;
+  order: 0;
+}
+
+.flex-box:nth-child(2) {
+  display: block;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  align-self: auto;
+  order: 0;
+}
+
 .load-new-quote {
   margin-top: 0.95rem;
   text-align: center;
@@ -66,9 +93,6 @@ footer.link p {
 
 /* center the blockquote in the page */
 .blockquote-wrapper {
-  display: flex;
-  height: 90vh;
-  padding: 0 20px;
 }
 
 /* Blockquote main style */

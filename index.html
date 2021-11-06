@@ -1,28 +1,45 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta http-equiv="content-language" content="en-US">
+    <meta http-equiv="content-language" content="en-US" />
     <meta charset="utf-8" />
     <title>Display Quote collection</title>
-    <link href="https://fonts.googleapis.com/css?family=Be+Vietnam|Montserrat&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Cardo|Roboto&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
-    <link type="text/css" rel="stylesheet" href="main.css" >
+    <link
+      href="https://fonts.googleapis.com/css?family=Be+Vietnam|Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Cardo|Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Oswald&display=swap"
+      rel="stylesheet"
+    />
+    <link type="text/css" rel="stylesheet" href="main.css" />
   </head>
   <body>
     <section class="wrapper">
-
       <div class="load-new-quote">
-        <a class="load-button" href="#" onclick="quote.getQuote(true)">Next Quote</a>
-        <p>Quote: <span id="currentQuoteIndex">0</span>/<span id="total">0</span> </p>
+        <a
+          class="load-button"
+          href="#"
+          onclick="quote.getQuote(true)">Next Quote</a>
+        <p>
+          Quote: <span id="currentQuoteIndex">0</span>/<span id="total">0</span>
+        </p>
       </div>
 
-      <div class="blockquote-wrapper" id="blockquote-wrapper">
-        <div class="blockquote">
-          <h1 id="quote-body">
-            Start before you are ready
-          </h1>
-          <h4 id="from">&mdash;Steven Pressfield</h4>
+        <div class="blockquote-wrapper" id="blockquote-wrapper">
+          <div clas="container">
+            <div class="blockquote">
+              <div class="flex-box">
+                <h1 id="quote-body">Start before you are ready</h1>
+              </div>
+              <div class="flex-box">
+                <h4 id="from">&mdash;Steven Pressfield</h4>
+              </div>
+            </div>
         </div>
       </div>
 
@@ -32,6 +49,6 @@
         </p>
       </footer>
     </section>
-    <script src="from_quote_file.js" > </script>
+    <script src="from_quote_file.js"></script>
   </body>
 </html>
