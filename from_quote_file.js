@@ -52,12 +52,13 @@ class Quotes {
       len = lines.length;
     }
     lines.forEach(item => {
-      const quote = { text: '' };
+      const quote = { text: '', author: ''};
 
       if (authorSeperator.test(item)) {
         quote.author = item.match(authorSeperator)[1].replace(/\n/, ' ');
         quote.text = item.replace(authorSeperator, '').replace(/\n/, ' ');
       } else {
+        delete quote.author
         quote.text = item.replace(/\n/, ' ');
       }
 
@@ -121,10 +122,10 @@ class Quotes {
     this.htmlFields.quoteBody.innerText = quote.text;
     this.htmlFields.quoteBody.style.fontSize = this.calcFontSize(quote.text.length);
 
-    if (quote.author) {
+    this.htmlFields.from.innerText = ''
+
+    if (quote.hasOwnProperty('author')) {
       this.htmlFields.from.innerText = '—' + quote.author
-    } else {
-      this.htmlFields.from.innerText = '';
     }
 
     this.htmlFields.currentQuoteIndex.innerText = `${this.quoteIndex || 0}`;
