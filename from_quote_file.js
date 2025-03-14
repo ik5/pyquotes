@@ -119,6 +119,10 @@ class Quotes {
         this.quoteIndex = quoteNumber;
     }
     const quote = this.quotesContainer[this.quoteIndex];
+    if (!quote || quote === undefined || quote === null) {
+      console.error("quote is empty", quote);
+      return;
+    }
     this.htmlFields.quoteBody.innerText = quote.text;
     this.htmlFields.quoteBody.style.fontSize = this.calcFontSize(quote.text.length);
 
