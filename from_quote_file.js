@@ -24,6 +24,7 @@ class Quotes {
     }
     this.quoteIndex = -1;
     this.quotesContainer = [];
+    this.currentPage = null; // Track the current page
 
     this.parseUrl(window.location.href);
     this.getFile();
@@ -150,8 +151,11 @@ class Quotes {
   }
 
   onHistoryChanged(e) {
-    this.parseUrl(window.location.href);
-    this.getQuote();
+    if (e.state && e.state.page) {
+      this.parseUrl(window.location.href);
+      this.getQuote();
+      return;
+    }
   }
 
 }
