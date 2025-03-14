@@ -47,7 +47,7 @@ class Quotes {
     const lines = content.split(quoteSeperator);
     let len = lines.length;
 
-    if (lines[len - 1] =~ emptyLine) {
+    if (emptyLine.test(lines[len - 1])) {
       lines.splice(-1, 1);
       len = lines.length;
     }
@@ -119,6 +119,10 @@ class Quotes {
         this.quoteIndex = quoteNumber;
     }
     const quote = this.quotesContainer[this.quoteIndex];
+    if (!quote || quote === undefined || quote === null) {
+      console.error("quote is empty", quote);
+      return;
+    }
     this.htmlFields.quoteBody.innerText = quote.text;
     this.htmlFields.quoteBody.style.fontSize = this.calcFontSize(quote.text.length);
 
@@ -131,8 +135,9 @@ class Quotes {
     this.htmlFields.currentQuoteIndex.innerText = `${this.quoteIndex || 0}`;
     // NOTE: This is a small bug of twice having the same history
     // TODO: fix it :D
-    window.history.pushState({quote: this.quoteIndex}, document.head.title,
-                             `?quote=${this.quoteIndex}`);
+    if (clicked !== false) {
+      window.history.pushState({quote: this.quoteIndex}, document.head.title, `?quote=${this.quoteIndex}`);
+    }
   }
 
   getRandomQuote() {
