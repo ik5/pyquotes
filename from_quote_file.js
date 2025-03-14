@@ -153,7 +153,7 @@ class Quotes {
     }
     this.htmlFields.og_description.content = quote.text;
     if (quote.hasOwnProperty('author')) {
-      this.htmlFields.og_description.content += quote.author;
+      this.htmlFields.og_description.content += ' — ' + quote.author;
     }
   }
 
