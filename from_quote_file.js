@@ -24,7 +24,6 @@ class Quotes {
     }
     this.quoteIndex = -1;
     this.quotesContainer = [];
-    this.currentPage = null; // Track the current page
 
     this.parseUrl(window.location.href);
     this.getFile();
@@ -132,8 +131,9 @@ class Quotes {
     this.htmlFields.currentQuoteIndex.innerText = `${this.quoteIndex || 0}`;
     // NOTE: This is a small bug of twice having the same history
     // TODO: fix it :D
-    window.history.pushState({quote: this.quoteIndex}, document.head.title,
-                             `?quote=${this.quoteIndex}`);
+    if (clicked !== false) {
+      window.history.pushState({quote: this.quoteIndex}, document.head.title, `?quote=${this.quoteIndex}`);
+    }
   }
 
   getRandomQuote() {
@@ -151,11 +151,8 @@ class Quotes {
   }
 
   onHistoryChanged(e) {
-    if (e.state && e.state.page) {
-      this.parseUrl(window.location.href);
-      this.getQuote();
-      return;
-    }
+    this.parseUrl(window.location.href);
+    this.getQuote();
   }
 
 }
