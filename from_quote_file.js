@@ -11,6 +11,7 @@ const og_title = 'og_title';
 const og_description = 'og_description';
 const og_url = 'og_url';
 
+const max_title_length = 12;
 
 class Quotes {
 
@@ -146,7 +147,10 @@ class Quotes {
     }
 
     this.htmlFields.og_url.content = window.location.href;
-    this.htmlFields.og_title.content = quote.text.substring(0, 12);
+    this.htmlFields.og_title.content = quote.text.substring(0, max_title_length);
+    if (quote.text.length > max_title_length) {
+      this.htmlFields.og_title.content += '...';
+    }
     this.htmlFields.og_description.content = quote.text;
     if (quote.hasOwnProperty('author')) {
       this.htmlFields.og_description.content += quote.author;
