@@ -47,7 +47,7 @@ class Quotes {
     const lines = content.split(quoteSeperator);
     let len = lines.length;
 
-    if (lines[len - 1] =~ emptyLine) {
+    if (emptyLine.test(lines[len - 1])) {
       lines.splice(-1, 1);
       len = lines.length;
     }
