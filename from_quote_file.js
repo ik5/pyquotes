@@ -7,6 +7,9 @@ const quoteBodyHTMLElement = 'quote-body';
 const fromHTMLElement = 'from';
 const totalHTMLElement = 'total';
 const currentQuoteIndexHTMLElement = 'currentQuoteIndex';
+const og_title = 'og_title';
+const og_description = 'og_description';
+const og_url = 'og_url';
 
 
 class Quotes {
@@ -17,6 +20,9 @@ class Quotes {
       from: document.getElementById(fromHTMLElement),
       total: document.getElementById(totalHTMLElement),
       currentQuoteIndex: document.getElementById(currentQuoteIndexHTMLElement),
+      og_title: document.getElementById(og_title),
+      og_description: document.getElementById(og_description),
+      og_url: document.getElementById(og_url),
     };
     this.url = {
       hash: '',
@@ -137,6 +143,13 @@ class Quotes {
     // TODO: fix it :D
     if (clicked !== false) {
       window.history.pushState({quote: this.quoteIndex}, document.head.title, `?quote=${this.quoteIndex}`);
+    }
+
+    this.htmlFields.og_url.content = window.location.href;
+    this.htmlFields.og_title.content = quote.text.substring(0, 12);
+    this.htmlFields.og_description.content = quote.text;
+    if (quote.hasOwnProperty('author')) {
+      this.htmlFields.og_description.content += quote.author;
     }
   }
 
